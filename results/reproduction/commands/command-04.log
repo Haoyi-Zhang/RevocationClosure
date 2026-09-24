@@ -1,0 +1,13 @@
+{
+  "completion_delays": {
+    "central-fail-closed": 0,
+    "lease-only": 980,
+    "all-durable-receipts": 1480,
+    "uniform-long-plus-receipts": 980,
+    "uniform-short-plus-receipts": 180,
+    "audience-lease-plus-receipts": 180
+  },
+  "wall_s": 7.8481056749999425,
+  "parent_cpu_s": 0.7128857529999997,
+  "children_cpu_s": 9.399773
+}
