@@ -154,7 +154,7 @@
     "purpose": "Exercise the theorem-facing hidden-lineage path after a mixed receipt/expiry closure"
   },
   "reproduction_source_closure": {
-    "retained_python_source_files": 20,
+    "retained_python_source_files": 24,
     "resume_requires_exact_source_bytes_and_file_set": true,
     "source_change_requires_fresh_output_directory": true,
     "purpose": "Prevent a segmented reproduction from combining outputs produced by different source trees"
@@ -239,5 +239,51 @@
     "tests/collector_audit.py",
     "tests/collector_stateful.py"
   ],
-  "reproduction_schedule_commands": 70
+  "reproduction_schedule_commands": 71,
+  "recovery_compaction_window": {
+    "epsilon": 0,
+    "L": 1,
+    "rho": 1,
+    "B": 1,
+    "Delta": 1,
+    "initial_compaction_time": 0,
+    "recovery_time": 100,
+    "first_post_recovery_compaction_time": 101,
+    "created_events": 10,
+    "creation_times": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "horizons": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "expected": {
+      "floor_before_recovery_compaction": 0,
+      "retained_before_recovery_compaction": 10,
+      "Delta_specialization": 3,
+      "Delta_specialization_premise_holds": false,
+      "authorization_rejections": 10,
+      "post_compaction_floor": 101,
+      "retained_after_compaction": 0
+    },
+    "purpose": "Execute the long-downtime window that invalidates the Delta specialization without weakening authorization safety",
+    "boundary": "Metadata-retention scope check; not a core closure counterexample or a process-crash claim"
+  }
 }

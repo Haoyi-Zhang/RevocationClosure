@@ -123,8 +123,9 @@ def main():
 
     commands = [
         ['pilot.py'], ['finite.py'], ['crashes.py'], ['policies.py'],
-        ['tests/boundaries.py'], ['tests/differential_audit.py'],
-        ['tests/closure_descendants.py'], ['tests/reproduction_guard.py'],
+        ['tests/boundaries.py'], ['tests/recovery_compaction_window.py'],
+        ['tests/differential_audit.py'], ['tests/closure_descendants.py'],
+        ['tests/reproduction_guard.py'],
     ]
     commands += [['histories.py', '--seed', str(seed)] for seed in SEEDS]
     commands += [
@@ -244,7 +245,8 @@ def main():
 
     names = [
         'pilot.json', 'finite.json', 'crashes.json', 'policies.json',
-        'boundaries.json', 'differential-audit.json', 'closure-descendants.json',
+        'boundaries.json', 'recovery-compaction-window.json',
+        'differential-audit.json', 'closure-descendants.json',
         'reproduction-guard.json',
         'clock-bounds.json', 'clock-regression.json',
         'collector-audit.json', 'collector-stateful.json',

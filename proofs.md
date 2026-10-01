@@ -239,14 +239,24 @@ be used. Capacity refusal must not be described as a global fail-closed use mode
 by the current JSON payload size; free pages and journal files can remain.
 
 For a separate conditional rate bound, suppose every event's horizon is at most
-its creation time plus L, no more than rho*w+B distinct events are created in any
-window of width w, and compaction occurs at least once every Delta real-time
-units while the gateway serves requests. A compaction at t0 installs a floor at
-least t0-2*epsilon. At time t<=t0+Delta, a retained event has H>t0-2*epsilon and
-therefore creation time > t-Delta-2*epsilon-L. Thus the retained set contains at
-most rho*(L+Delta+2*epsilon)+B events. Delayed messages cannot invalidate this
-bound because already expired horizons are refused. The artifact does not
-enforce those rate and lifetime premises, so this is not a measured service SLA.
+its creation time plus L and no more than rho*w+B distinct events are created in
+any interval of width w. Let t0 be the latest successful compaction and let
+A=t-t0 be its age at the current time. That compaction installs a floor of at
+least t0-2*epsilon. Every retained event therefore has creation time greater than
+t0-2*epsilon-L, while no creation time exceeds t=t0+A. The retained set contains
+at most rho*(L+A+2*epsilon)+B events. The familiar
+rho*(L+Delta+2*epsilon)+B specialization is valid only when A<=Delta.
+
+A long downtime followed by admission before the first recovery compaction does
+not satisfy that specialization. `tests/recovery_compaction_window.py` executes
+the concrete epsilon=0, L=rho=B=Delta=1 case: a time-0 compaction leaves floor
+0; after reopen at time 100, ten grants with horizons 2 through 11 are admitted
+before compaction. The observed count is 10, exceeding the inapplicable value 3,
+while all ten SQL decisions and independent verifier checks reject as expired.
+Compaction at time 101 advances the floor to 101 and removes all ten records.
+This is a retained-metadata window, not an authorization-safety counterexample.
+The artifact does not enforce the rate or lifetime premises, so neither form is a
+measured service SLA.
 
 Without a retention restriction, expiry, a fence, or an admission refusal, an
 unbounded sequence of independent, non-expiring roots already needs unbounded

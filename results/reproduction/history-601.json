@@ -30,13 +30,13 @@
   "records_after_common_floor_and_replay": 0,
   "dropped_deliveries": 193,
   "duplicate_slots": 241,
-  "rpc_median_us": 390.81,
-  "rpc_p95_us": 1483.916,
-  "wall_s": 5.828873428000179,
-  "parent_cpu_s": 1.3453448659999998,
-  "parent_peak_rss_kib": 99760,
+  "rpc_median_us": 268.965,
+  "rpc_p95_us": 444.139,
+  "wall_s": 3.649898660999952,
+  "parent_cpu_s": 1.009057168,
+  "parent_peak_rss_kib": 99628,
   "messages": 3051,
-  "wire_bytes": 3673046,
-  "server_peak_rss_kib": 98232,
-  "children_cpu_s": 5.720613999999999
+  "wire_bytes": 3672276,
+  "server_peak_rss_kib": 98352,
+  "children_cpu_s": 4.1220989999999995
 }

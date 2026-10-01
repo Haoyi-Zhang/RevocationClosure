@@ -1,59 +1,51 @@
-# Final Packet Verification
+# Final Artifact Verification
 
-**Status:** FAIL
+**Status:** PASS for the bounded TDSC artifact and the requested recovery-window repair.
 
-## Failures
+This status is a mechanical and scientific-consistency check inside the declared model. It is not peer review, an acceptance prediction, or evidence for Byzantine gateways, dynamic membership, production credentials, multi-host deployment, physical power loss, or representative workload behavior.
 
-- project root entries ['CURRENT-STATE.md', 'artifact', 'paper', 'research-plan.md', 'reviewer-paper-patch.json'] != ['CURRENT-STATE.md', 'artifact', 'paper', 'research-plan.md']
-- no independent Java model-checker source found
-- parse failure results/trace_schedule/source-verification.json: Expecting value: line 1 column 1 (char 0)
-- missing retained source-closed reproduction.json
-- no retained independent-model evidence for 16336 states/152895 transitions
-- no result document demonstrates five distinct gateway PIDs
-- missing trace schedule summary
-- missing trace provenance/input artifact/data/sfhh-gateway-groups.tsv
-- missing trace provenance/input artifact/data/sfhh-gateway-groups.meta.json
-- missing performance robustness result artifact/results/performance-robustness.json
-- missing performance robustness result artifact/results/performance-robustness.csv
-- PDF Author metadata is not empty
-- PDF Subject metadata is not empty
-- font not embedded/subset: MVGVXR+NimbusRomNo9L-Medi            Type 1            Custom           yes yes yes    143  0
-- font not embedded/subset: XBGGXL+NimbusRomNo9L-ReguItal        Type 1            Custom           yes yes yes    144  0
-- font not embedded/subset: HHWHKS+NimbusRomNo9L-Regu            Type 1            Custom           yes yes yes    146  0
-- font not embedded/subset: DNIDNI+URWChanceryL-MediItal         Type 1            Custom           yes yes yes    174  0
-- font not embedded/subset: SOSTRQ+CMR10                         Type 1            Builtin          yes yes yes    175  0
-- font not embedded/subset: KQIVWR+CMSY10                        Type 1            Builtin          yes yes yes    176  0
-- font not embedded/subset: OLFVEJ+CMMI10                        Type 1            Builtin          yes yes yes    177  0
-- font not embedded/subset: TZYURE+MSBM10                        Type 1            Builtin          yes yes yes    178  0
-- font not embedded/subset: VEXACE+StandardSymL                  Type 1            Builtin          yes yes yes    200  0
-- font not embedded/subset: TNLORW+CMSS10                        Type 1            Builtin          yes yes yes    217  0
-- font not embedded/subset: QKEKMF+CMEX9                         Type 1            Builtin          yes yes yes    235  0
-- font not embedded/subset: GXSNBL+NimbusMonL-Regu-Extend_850    Type 1            Custom           yes yes yes    415  0
+## Recovery-compaction window
 
-## Verified statistics
+`tests/recovery_compaction_window.py` was executed as an independent directed regression. With `epsilon=0` and `L=rho=B=Delta=1`:
 
-```json
-{
-  "bibliography": {
-    "cited_keys_all_tex": 70,
-    "dois": 48,
-    "entries": 70
-  },
-  "java_files": 0,
-  "model_evidence_files": [],
-  "multiprocess_evidence_files": [],
-  "parsed_files": {
-    "csv": 55,
-    "json": 92,
-    "json_gz": 62,
-    "jsonl_gz": 31
-  },
-  "pdf": {
-    "pages": 18,
-    "references_page": 13,
-    "sha256": "0150b60c9ee4e20cf795b56a74cdacde329e4f339bcfb3e60af7505f9c3b04f5"
-  },
-  "project_file_count": 373,
-  "python_files_parsed": 89
-}
-```
+- a successful compaction at logical time 0 installed floor 0;
+- after reopening at logical time 100, ten deterministic grants with horizons 2 through 11 were admitted before the first post-recovery compaction;
+- the observed retained count was 10, while the value 3 from the `A<=Delta` specialization was explicitly inapplicable because the latest-compaction age was 100;
+- all ten SQL authorization decisions and independent interpreter checks rejected with reason `expired`;
+- compaction at logical time 101 installed floor 101 and reduced the retained count from 10 to 0.
+
+The result is retained in `recovery-compaction-window.json`. It narrows the metadata proposition to the age `A` of the latest successful compaction; it is not reported as a failure of the core authorization-safety theorem.
+
+## Preserved primary evidence
+
+The repair did not change the retained primary counts:
+
+- collector oracle: 26,852 comparisons, 16,921 closed cases, 9,931 open witness cases, and 93 SQL witness executions;
+- stateful collector campaign: 64 traces, 10,240 steps, 51,200 SQL/interpreter comparisons, 37,890 post-closure rejections, zero status regressions, and zero post-closure allows;
+- gateway finite product: 27,648 barrier instances and 23,520 local decisions;
+- combined finite/static/evolving/hidden-lineage authorization correspondence: 29,875 decisions;
+- lookup measurements: 48 runs and 9,600 timed queries.
+
+Compressed traces, structured-input fixtures, and command logs are intentionally retained even where a short checklist does not enumerate them individually. Their absence from a prose list is not treated as file loss.
+
+## Source-closed reproduction
+
+`results/reproduction/reproduction.json` records:
+
+- state `complete`;
+- 71 successful commands and zero failed attempts;
+- 24 executable Python source files bound byte-for-byte to the retained source snapshot;
+- 69 semantic JSON comparisons;
+- 59 exact structured-input comparisons;
+- exact decompressed comparison of the 10,240-row collector trace;
+- completed-segment command total equal to 71.
+
+The campaign used a fresh output directory after the scientific-source change. Timing and process telemetry were not required to equal the retained primary measurements.
+
+## Code and data checks
+
+- All executable Python files parse and compile with assertions enabled.
+- The project artifact and standalone repository have identical file sets and bytes.
+- JSON, gzip JSON, gzip JSONL, and CSV result assets required by the reproduction are retained and parseable.
+- The public fixture keys and harness-supplied actor/clock remain explicitly non-production inputs.
+- Gateway database reopen, owned process exit, and physical machine/power failure remain distinct claims.

@@ -150,11 +150,11 @@
     }
   ],
   "messages": 29,
-  "wire_bytes": 40851,
-  "server_peak_rss_kib": 97208,
-  "wall_s": 2.698473315000001,
-  "parent_cpu_s": 0.01654961999999993,
-  "children_cpu_s": 4.062395,
-  "parent_peak_rss_kib": 95016,
+  "wire_bytes": 40849,
+  "server_peak_rss_kib": 97080,
+  "wall_s": 1.724701026000048,
+  "parent_cpu_s": 0.01130343899999997,
+  "children_cpu_s": 3.0229730000000004,
+  "parent_peak_rss_kib": 94892,
   "scope": "One deterministic owned-loopback mixed-cover case with a valid depth-three lineage; finite correspondence evidence, not exhaustive descendant or deployment evidence."
 }

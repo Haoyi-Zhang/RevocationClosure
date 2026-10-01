@@ -24,14 +24,14 @@
     ],
     "post_restart_reason": "revoked",
     "messages": 16,
-    "wire_bytes": 20070,
-    "server_peak_rss_kib": 97104
+    "wire_bytes": 20066,
+    "server_peak_rss_kib": 97084
   },
   "negative_control_volatile_ack_resurrected": true,
-  "wall_s": 3.902255238000066,
-  "parent_cpu_s": 0.017872370000000082,
-  "children_cpu_s": 5.656428,
-  "parent_peak_rss_kib": 94508,
+  "wall_s": 2.354794597000023,
+  "parent_cpu_s": 0.007786164000000095,
+  "children_cpu_s": 3.9983969999999998,
+  "parent_peak_rss_kib": 94620,
   "decisions": [
     {
       "allow": false,
@@ -51,9 +51,9 @@
         "right": 1,
         "service": "svc0"
       },
-      "server_cpu_s": 1.507342305,
-      "server_peak_rss_kib": 97104,
-      "service_ns": 1404194,
+      "server_cpu_s": 1.005359981,
+      "server_peak_rss_kib": 97068,
+      "service_ns": 170888,
       "snapshot": [
         {
           "id": "cfa4e8b78e647ec57afc181b9c59aeb491a7139bd73a59707c0c6518264e46ab",
@@ -116,7 +116,7 @@
           "subject": 2
         }
       ],
-      "rpc_ns": 2042764
+      "rpc_ns": 465043
     },
     {
       "allow": false,
@@ -136,9 +136,9 @@
         "right": 1,
         "service": "svc0"
       },
-      "server_cpu_s": 1.507836058,
-      "server_peak_rss_kib": 97104,
-      "service_ns": 203263,
+      "server_cpu_s": 1.005773425,
+      "server_peak_rss_kib": 97068,
+      "service_ns": 166716,
       "snapshot": [
         {
           "id": "cfa4e8b78e647ec57afc181b9c59aeb491a7139bd73a59707c0c6518264e46ab",
@@ -201,7 +201,7 @@
           "subject": 2
         }
       ],
-      "rpc_ns": 617105
+      "rpc_ns": 594719
     },
     {
       "allow": false,
@@ -221,9 +221,9 @@
         "right": 1,
         "service": "svc0"
       },
-      "server_cpu_s": 1.508384761,
-      "server_peak_rss_kib": 97104,
-      "service_ns": 197110,
+      "server_cpu_s": 1.006171939,
+      "server_peak_rss_kib": 97068,
+      "service_ns": 117785,
       "snapshot": [
         {
           "id": "cfa4e8b78e647ec57afc181b9c59aeb491a7139bd73a59707c0c6518264e46ab",
@@ -286,7 +286,7 @@
           "subject": 2
         }
       ],
-      "rpc_ns": 585040
+      "rpc_ns": 402880
     },
     {
       "allow": false,
@@ -306,9 +306,9 @@
         "right": 1,
         "service": "svc0"
       },
-      "server_cpu_s": 1.508942862,
-      "server_peak_rss_kib": 97104,
-      "service_ns": 140959,
+      "server_cpu_s": 1.006516015,
+      "server_peak_rss_kib": 97068,
+      "service_ns": 124762,
       "snapshot": [
         {
           "deadlines": [
@@ -347,7 +347,7 @@
           "subject": 2
         }
       ],
-      "rpc_ns": 668343
+      "rpc_ns": 451099
     },
     {
       "allow": false,
@@ -367,9 +367,9 @@
         "right": 1,
         "service": "svc0"
       },
-      "server_cpu_s": 1.509379747,
-      "server_peak_rss_kib": 97104,
-      "service_ns": 140464,
+      "server_cpu_s": 1.00687563,
+      "server_peak_rss_kib": 97068,
+      "service_ns": 119235,
       "snapshot": [
         {
           "deadlines": [
@@ -408,7 +408,7 @@
           "subject": 2
         }
       ],
-      "rpc_ns": 523177
+      "rpc_ns": 436515
     }
   ]
 }

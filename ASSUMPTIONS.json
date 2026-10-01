@@ -66,12 +66,13 @@
     },
     {
       "id": "A7",
-      "statement": "Compaction preserves a persistent admission floor sufficient to reject replayed records below the retained boundary.",
+      "statement": "Compaction preserves a persistent admission floor sufficient to reject replayed records below the retained boundary; the Delta-specialized metadata bound applies only while the latest successful compaction age is at most Delta.",
       "role": "Prevents old grants and revokes from re-entering after metadata deletion.",
       "evidence": [
         "floor recovery cases",
         "floor-removal negative control",
-        "replay tests"
+        "replay tests",
+        "recovery-compaction age-window regression"
       ],
       "removed_or_out_of_scope": "Arbitrary lossy compaction is not covered."
     },

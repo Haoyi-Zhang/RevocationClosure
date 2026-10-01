@@ -470,8 +470,8 @@
         }
       ],
       "messages": 66,
-      "wire_bytes": 125269,
-      "server_peak_rss_kib": 97088
+      "wire_bytes": 125259,
+      "server_peak_rss_kib": 97068
     },
     {
       "policy": "lease-only",
@@ -931,8 +931,8 @@
         }
       ],
       "messages": 98,
-      "wire_bytes": 176709,
-      "server_peak_rss_kib": 97064
+      "wire_bytes": 176688,
+      "server_peak_rss_kib": 97072
     },
     {
       "policy": "all-durable-receipts",
@@ -1392,8 +1392,8 @@
         }
       ],
       "messages": 98,
-      "wire_bytes": 177583,
-      "server_peak_rss_kib": 97068
+      "wire_bytes": 177561,
+      "server_peak_rss_kib": 97064
     },
     {
       "policy": "uniform-long-plus-receipts",
@@ -1853,8 +1853,8 @@
         }
       ],
       "messages": 98,
-      "wire_bytes": 177518,
-      "server_peak_rss_kib": 97072
+      "wire_bytes": 177513,
+      "server_peak_rss_kib": 97068
     },
     {
       "policy": "uniform-short-plus-receipts",
@@ -2314,8 +2314,8 @@
         }
       ],
       "messages": 98,
-      "wire_bytes": 176796,
-      "server_peak_rss_kib": 97092
+      "wire_bytes": 176806,
+      "server_peak_rss_kib": 97068
     },
     {
       "policy": "audience-lease-plus-receipts",
@@ -2775,12 +2775,12 @@
         }
       ],
       "messages": 98,
-      "wire_bytes": 177381,
+      "wire_bytes": 177385,
       "server_peak_rss_kib": 97068
     }
   ],
-  "wall_s": 7.8481056749999425,
-  "parent_cpu_s": 0.7128857529999997,
-  "children_cpu_s": 9.399773,
-  "parent_peak_rss_kib": 94764
+  "wall_s": 4.308412800999918,
+  "parent_cpu_s": 0.22504163100000008,
+  "children_cpu_s": 6.772353,
+  "parent_peak_rss_kib": 94892
 }

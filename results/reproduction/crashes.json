@@ -53,11 +53,11 @@
         "json_bytes": 281890,
         "records": 1000,
         "revocations": 0,
-        "server_cpu_s": 1.815078597,
-        "server_peak_rss_kib": 106816,
-        "service_ns": 1409090,
+        "server_cpu_s": 1.079679763,
+        "server_peak_rss_kib": 107076,
+        "service_ns": 861748,
         "sqlite_bytes": 729056,
-        "rpc_ns": 1980734
+        "rpc_ns": 1401434
       },
       "after": {
         "floor": 100,
@@ -65,11 +65,11 @@
         "json_bytes": 0,
         "records": 0,
         "revocations": 0,
-        "server_cpu_s": 1.645923526,
-        "server_peak_rss_kib": 106816,
-        "service_ns": 371070,
+        "server_cpu_s": 1.077929354,
+        "server_peak_rss_kib": 107076,
+        "service_ns": 365810,
         "sqlite_bytes": 1384136,
-        "rpc_ns": 1391794
+        "rpc_ns": 723812
       },
       "replay_added": 0,
       "allow": false,
@@ -83,11 +83,11 @@
         "json_bytes": 281890,
         "records": 1000,
         "revocations": 0,
-        "server_cpu_s": 1.608473605,
-        "server_peak_rss_kib": 106816,
-        "service_ns": 940859,
+        "server_cpu_s": 1.13522092,
+        "server_peak_rss_kib": 107076,
+        "service_ns": 859284,
         "sqlite_bytes": 729056,
-        "rpc_ns": 1414200
+        "rpc_ns": 1262322
       },
       "after": {
         "floor": 0,
@@ -95,11 +95,11 @@
         "json_bytes": 281890,
         "records": 1000,
         "revocations": 0,
-        "server_cpu_s": 1.60615314,
-        "server_peak_rss_kib": 106816,
-        "service_ns": 980827,
+        "server_cpu_s": 1.125107145,
+        "server_peak_rss_kib": 107076,
+        "service_ns": 849307,
         "sqlite_bytes": 2030976,
-        "rpc_ns": 1534836
+        "rpc_ns": 1345696
       },
       "replay_added": 1000,
       "allow": false,
@@ -130,9 +130,9 @@
           "right": 1,
           "service": "svc0"
         },
-        "server_cpu_s": 1.400721898,
-        "server_peak_rss_kib": 96956,
-        "service_ns": 432600,
+        "server_cpu_s": 1.105254331,
+        "server_peak_rss_kib": 96860,
+        "service_ns": 208390,
         "snapshot": [
           {
             "deadlines": [
@@ -171,7 +171,7 @@
             "subject": 2
           }
         ],
-        "rpc_ns": 4810612
+        "rpc_ns": 1114516
       }
     },
     {
@@ -197,9 +197,9 @@
           "right": 1,
           "service": "svc0"
         },
-        "server_cpu_s": 2.652835766,
-        "server_peak_rss_kib": 96820,
-        "service_ns": 211580,
+        "server_cpu_s": 1.098023408,
+        "server_peak_rss_kib": 96960,
+        "service_ns": 205167,
         "snapshot": [
           {
             "deadlines": [
@@ -238,7 +238,7 @@
             "subject": 2
           }
         ],
-        "rpc_ns": 1124258
+        "rpc_ns": 780224
       }
     },
     {
@@ -264,9 +264,9 @@
           "right": 1,
           "service": "svc0"
         },
-        "server_cpu_s": 1.882442098,
-        "server_peak_rss_kib": 97600,
-        "service_ns": 228484,
+        "server_cpu_s": 1.10246434,
+        "server_peak_rss_kib": 97604,
+        "service_ns": 210830,
         "snapshot": [
           {
             "deadlines": [
@@ -329,7 +329,7 @@
             }
           }
         ],
-        "rpc_ns": 1097169
+        "rpc_ns": 1113837
       }
     },
     {
@@ -355,9 +355,9 @@
           "right": 1,
           "service": "svc0"
         },
-        "server_cpu_s": 1.043272323,
-        "server_peak_rss_kib": 98752,
-        "service_ns": 424991,
+        "server_cpu_s": 1.078997652,
+        "server_peak_rss_kib": 98756,
+        "service_ns": 218040,
         "snapshot": [
           {
             "deadlines": [
@@ -420,7 +420,7 @@
             }
           }
         ],
-        "rpc_ns": 7548841
+        "rpc_ns": 900797
       }
     },
     {
@@ -432,11 +432,11 @@
         "json_bytes": 1098,
         "records": 3,
         "revocations": 1,
-        "server_cpu_s": 1.194506853,
-        "server_peak_rss_kib": 100032,
-        "service_ns": 620500,
+        "server_cpu_s": 1.09318336,
+        "server_peak_rss_kib": 100164,
+        "service_ns": 532436,
         "sqlite_bytes": 90456,
-        "rpc_ns": 1484680
+        "rpc_ns": 1248337
       },
       "replay": {
         "added": 0,
@@ -451,10 +451,10 @@
             "target": "2f5cebe3da393bdca34a35dbf844a7721e8f585ba68ca61f7ced96cdd4b20cfb"
           }
         ],
-        "server_cpu_s": 1.196236143,
-        "server_peak_rss_kib": 100032,
-        "service_ns": 443218,
-        "rpc_ns": 1294096
+        "server_cpu_s": 1.094479776,
+        "server_peak_rss_kib": 100164,
+        "service_ns": 366327,
+        "rpc_ns": 786582
       },
       "decision": {
         "allow": false,
@@ -474,9 +474,9 @@
           "right": 1,
           "service": "svc0"
         },
-        "server_cpu_s": 1.196851776,
-        "server_peak_rss_kib": 100032,
-        "service_ns": 197594,
+        "server_cpu_s": 1.095099482,
+        "server_peak_rss_kib": 100164,
+        "service_ns": 222919,
         "snapshot": [
           {
             "deadlines": [
@@ -539,7 +539,7 @@
             }
           }
         ],
-        "rpc_ns": 693845
+        "rpc_ns": 504550
       }
     },
     {
@@ -551,11 +551,11 @@
         "json_bytes": 1098,
         "records": 3,
         "revocations": 1,
-        "server_cpu_s": 1.257848281,
-        "server_peak_rss_kib": 101312,
-        "service_ns": 396120,
+        "server_cpu_s": 1.061111856,
+        "server_peak_rss_kib": 101572,
+        "service_ns": 487058,
         "sqlite_bytes": 90456,
-        "rpc_ns": 1158955
+        "rpc_ns": 1011128
       },
       "replay": {
         "added": 0,
@@ -570,10 +570,10 @@
             "target": "2f5cebe3da393bdca34a35dbf844a7721e8f585ba68ca61f7ced96cdd4b20cfb"
           }
         ],
-        "server_cpu_s": 1.258815469,
-        "server_peak_rss_kib": 101312,
-        "service_ns": 453508,
-        "rpc_ns": 1153380
+        "server_cpu_s": 1.062035821,
+        "server_peak_rss_kib": 101572,
+        "service_ns": 392221,
+        "rpc_ns": 758212
       },
       "decision": {
         "allow": false,
@@ -593,9 +593,9 @@
           "right": 1,
           "service": "svc0"
         },
-        "server_cpu_s": 1.259694664,
-        "server_peak_rss_kib": 101312,
-        "service_ns": 340793,
+        "server_cpu_s": 1.062651609,
+        "server_peak_rss_kib": 101572,
+        "service_ns": 171840,
         "snapshot": [
           {
             "deadlines": [
@@ -658,7 +658,7 @@
             }
           }
         ],
-        "rpc_ns": 934228
+        "rpc_ns": 441626
       }
     },
     {
@@ -670,11 +670,11 @@
         "json_bytes": 1098,
         "records": 3,
         "revocations": 1,
-        "server_cpu_s": 1.493186602,
-        "server_peak_rss_kib": 102720,
-        "service_ns": 389130,
+        "server_cpu_s": 1.014028396,
+        "server_peak_rss_kib": 102852,
+        "service_ns": 368514,
         "sqlite_bytes": 90456,
-        "rpc_ns": 1205874
+        "rpc_ns": 1064433
       },
       "replay": {
         "added": 0,
@@ -689,10 +689,10 @@
             "target": "2f5cebe3da393bdca34a35dbf844a7721e8f585ba68ca61f7ced96cdd4b20cfb"
           }
         ],
-        "server_cpu_s": 1.494261483,
-        "server_peak_rss_kib": 102720,
-        "service_ns": 565842,
-        "rpc_ns": 961752
+        "server_cpu_s": 1.014839817,
+        "server_peak_rss_kib": 102852,
+        "service_ns": 366514,
+        "rpc_ns": 740193
       },
       "decision": {
         "allow": false,
@@ -712,9 +712,9 @@
           "right": 1,
           "service": "svc0"
         },
-        "server_cpu_s": 1.495445656,
-        "server_peak_rss_kib": 102720,
-        "service_ns": 518610,
+        "server_cpu_s": 1.015526602,
+        "server_peak_rss_kib": 102852,
+        "service_ns": 234555,
         "snapshot": [
           {
             "deadlines": [
@@ -777,7 +777,7 @@
             }
           }
         ],
-        "rpc_ns": 1146707
+        "rpc_ns": 545218
       }
     },
     {
@@ -789,11 +789,11 @@
         "json_bytes": 0,
         "records": 0,
         "revocations": 0,
-        "server_cpu_s": 1.708864998,
-        "server_peak_rss_kib": 104000,
-        "service_ns": 398717,
+        "server_cpu_s": 1.07098172,
+        "server_peak_rss_kib": 104132,
+        "service_ns": 389758,
         "sqlite_bytes": 106936,
-        "rpc_ns": 1389433
+        "rpc_ns": 929526
       },
       "replay": {
         "added": 0,
@@ -808,10 +808,10 @@
             "target": "2f5cebe3da393bdca34a35dbf844a7721e8f585ba68ca61f7ced96cdd4b20cfb"
           }
         ],
-        "server_cpu_s": 1.709829027,
-        "server_peak_rss_kib": 104000,
-        "service_ns": 689855,
-        "rpc_ns": 1890707
+        "server_cpu_s": 1.071800657,
+        "server_peak_rss_kib": 104132,
+        "service_ns": 490040,
+        "rpc_ns": 856440
       },
       "decision": {
         "allow": false,
@@ -828,11 +828,11 @@
           "right": 1,
           "service": "svc0"
         },
-        "server_cpu_s": 1.711182786,
-        "server_peak_rss_kib": 104000,
-        "service_ns": 81113,
+        "server_cpu_s": 1.072609912,
+        "server_peak_rss_kib": 104132,
+        "service_ns": 69405,
         "snapshot": [],
-        "rpc_ns": 490707
+        "rpc_ns": 335765
       }
     },
     {
@@ -844,11 +844,11 @@
         "json_bytes": 0,
         "records": 0,
         "revocations": 0,
-        "server_cpu_s": 1.885382947,
-        "server_peak_rss_kib": 105536,
-        "service_ns": 397418,
+        "server_cpu_s": 1.062432068,
+        "server_peak_rss_kib": 105668,
+        "service_ns": 561633,
         "sqlite_bytes": 106936,
-        "rpc_ns": 1196407
+        "rpc_ns": 1088600
       },
       "replay": {
         "added": 0,
@@ -863,10 +863,10 @@
             "target": "2f5cebe3da393bdca34a35dbf844a7721e8f585ba68ca61f7ced96cdd4b20cfb"
           }
         ],
-        "server_cpu_s": 1.886428171,
-        "server_peak_rss_kib": 105536,
-        "service_ns": 350057,
-        "rpc_ns": 1915903
+        "server_cpu_s": 1.062681332,
+        "server_peak_rss_kib": 105668,
+        "service_ns": 324085,
+        "rpc_ns": 667459
       },
       "decision": {
         "allow": false,
@@ -883,11 +883,11 @@
           "right": 1,
           "service": "svc0"
         },
-        "server_cpu_s": 1.887270482,
-        "server_peak_rss_kib": 105536,
-        "service_ns": 84658,
+        "server_cpu_s": 1.063204215,
+        "server_peak_rss_kib": 105668,
+        "service_ns": 76531,
         "snapshot": [],
-        "rpc_ns": 624591
+        "rpc_ns": 680881
       }
     },
     {
@@ -913,10 +913,10 @@
         },
         "issued": true,
         "reason": "allow",
-        "server_cpu_s": 1.856262419,
-        "server_peak_rss_kib": 106816,
-        "service_ns": 2590458,
-        "rpc_ns": 2903199
+        "server_cpu_s": 1.082553554,
+        "server_peak_rss_kib": 107076,
+        "service_ns": 317841,
+        "rpc_ns": 571647
       },
       "before_delivery": {
         "allow": true,
@@ -936,9 +936,9 @@
           "right": 1,
           "service": "svc0"
         },
-        "server_cpu_s": 1.856879634,
-        "server_peak_rss_kib": 106816,
-        "service_ns": 141311,
+        "server_cpu_s": 1.083092439,
+        "server_peak_rss_kib": 107076,
+        "service_ns": 105331,
         "snapshot": [
           {
             "deadlines": [
@@ -977,7 +977,7 @@
             "subject": 2
           }
         ],
-        "rpc_ns": 1196731
+        "rpc_ns": 344346
       },
       "after_delivery": {
         "allow": false,
@@ -997,9 +997,9 @@
           "right": 1,
           "service": "svc0"
         },
-        "server_cpu_s": 1.860892493,
-        "server_peak_rss_kib": 106816,
-        "service_ns": 751030,
+        "server_cpu_s": 1.084893176,
+        "server_peak_rss_kib": 107076,
+        "service_ns": 83082,
         "snapshot": [
           {
             "deadlines": [
@@ -1062,24 +1062,24 @@
             }
           }
         ],
-        "rpc_ns": 2621080
+        "rpc_ns": 310240
       },
       "connected_issue": {
         "issued": false,
         "reason": "revoked",
-        "server_cpu_s": 1.857616272,
-        "server_peak_rss_kib": 106816,
-        "service_ns": 124670,
-        "rpc_ns": 1629161
+        "server_cpu_s": 1.08341806,
+        "server_peak_rss_kib": 107076,
+        "service_ns": 93563,
+        "rpc_ns": 350056
       }
     }
   ],
   "messages": 79,
-  "wire_bytes": 1193015,
-  "server_peak_rss_kib": 106816,
-  "wall_s": 37.91295926999999,
-  "parent_cpu_s": 0.17339858899999983,
-  "children_cpu_s": 48.768113,
-  "parent_peak_rss_kib": 106816,
+  "wire_bytes": 1193001,
+  "server_peak_rss_kib": 107076,
+  "wall_s": 19.532170361,
+  "parent_cpu_s": 0.09580140899999989,
+  "children_cpu_s": 32.482967,
+  "parent_peak_rss_kib": 107076,
   "boundary": "Actual process termination; all five endpoints share one process. No machine/power-loss claim."
 }

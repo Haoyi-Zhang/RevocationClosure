@@ -15,9 +15,9 @@
   "schedule_decisions": 600,
   "distinct_final_states": 1,
   "malformed_rejected": 7,
-  "wall_s": 22.068287198000007,
-  "parent_cpu_s": 22.030962803999998,
+  "wall_s": 9.677292607000027,
+  "parent_cpu_s": 9.676194878,
   "children_cpu_s": 0,
-  "parent_peak_rss_kib": 95400,
+  "parent_peak_rss_kib": 95656,
   "boundary": "Exact stated finite products only; in-memory stores; no durability or exhaustive unbounded schedule claim."
 }

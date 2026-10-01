@@ -68,9 +68,9 @@
     "certificate_closed_at_sound_expiry": true,
     "receipt_meaning": "committed revoke row or already sufficient durable floor"
   },
-  "wall_s": 8.149719731999994,
-  "parent_cpu_s": 8.149285384999999,
+  "wall_s": 5.385098683000024,
+  "parent_cpu_s": 5.384925727,
   "children_cpu_s": 0.0,
-  "parent_peak_rss_kib": 104104,
+  "parent_peak_rss_kib": 104108,
   "scope": "Deterministic owned-input differential testing and one on-disk recovery branch; not a mechanized proof, deployment trace, or independent review."
 }

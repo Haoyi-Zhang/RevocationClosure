@@ -1,60 +1,25 @@
 {
-  "verified": [
-    {
-      "seed": 101,
-      "rows": 3010,
-      "use_checks": 1405,
-      "barrier_checks": 128,
-      "clock_order_checked": true
-    },
-    {
-      "seed": 211,
-      "rows": 3051,
-      "use_checks": 1395,
-      "barrier_checks": 128,
-      "clock_order_checked": true
-    },
-    {
-      "seed": 307,
-      "rows": 3041,
-      "use_checks": 1400,
-      "barrier_checks": 128,
-      "clock_order_checked": true
-    },
-    {
-      "seed": 401,
-      "rows": 3035,
-      "use_checks": 1375,
-      "barrier_checks": 128,
-      "clock_order_checked": true
-    },
-    {
-      "seed": 503,
-      "rows": 3020,
-      "use_checks": 1365,
-      "barrier_checks": 128,
-      "clock_order_checked": true
-    },
-    {
-      "seed": 601,
-      "rows": 3053,
-      "use_checks": 1405,
-      "barrier_checks": 128,
-      "clock_order_checked": true
-    },
-    {
-      "seed": 701,
-      "rows": 3036,
-      "use_checks": 1400,
-      "barrier_checks": 128,
-      "clock_order_checked": true
-    },
-    {
-      "seed": 809,
-      "rows": 3104,
-      "use_checks": 1415,
-      "barrier_checks": 128,
-      "clock_order_checked": true
-    }
-  ]
+  "records": 10000,
+  "depth": 64,
+  "seed": 43,
+  "measured_queries": 200,
+  "warmup_queries": 20,
+  "messages": 261,
+  "wire_bytes": 4052070,
+  "server_peak_rss_kib": 102192,
+  "parent_peak_rss_kib": 102320,
+  "logical_json_bytes": 2992732,
+  "allocated_sqlite_bytes": 11354584,
+  "wall_s": 2.1078782950000914,
+  "parent_cpu_s": 0.8276238650000001,
+  "children_cpu_s": 1.76969,
+  "rpc_median_us": 1387.346,
+  "rpc_p95_us": 1806.18,
+  "rpc_p99_us": 2328.018,
+  "service_median_us": 935.441,
+  "service_p95_us": 1180.057,
+  "service_p99_us": 1447.606,
+  "verifier_median_us": 309.028,
+  "verifier_p95_us": 466.942,
+  "verifier_p99_us": 806.653
 }

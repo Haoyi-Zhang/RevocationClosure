@@ -7,7 +7,7 @@
     "uniform-short-plus-receipts": 180,
     "audience-lease-plus-receipts": 180
   },
-  "wall_s": 7.8481056749999425,
-  "parent_cpu_s": 0.7128857529999997,
-  "children_cpu_s": 9.399773
+  "wall_s": 4.308412800999918,
+  "parent_cpu_s": 0.22504163100000008,
+  "children_cpu_s": 6.772353
 }

@@ -27,7 +27,7 @@
     "barrier_checks": 1024,
     "post_barrier_use_checks": 3160,
     "messages": 24334,
-    "wire_bytes": 29358703,
+    "wire_bytes": 29353364,
     "process_restarts": 16,
     "reasons": {
       "missing": 5891,
@@ -167,8 +167,8 @@
     }
   ],
   "resources": {
-    "reported_experiment_parent_plus_children_cpu_s": 294.163912532,
-    "reported_experiment_wall_s_sum": 249.66279886199982,
+    "reported_experiment_parent_plus_children_cpu_s": 189.476596762,
+    "reported_experiment_wall_s_sum": 137.14579693900032,
     "largest_reported_parent_rss_kib": 202664,
     "largest_reported_server_rss_kib": 170920,
     "accounting_scope": "Current per-experiment reports only; excludes earlier development, offline replay, summary, compilation and packaging. RSS maxima are not simultaneous whole-cgroup measurements."

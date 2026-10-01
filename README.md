@@ -13,7 +13,7 @@ python3 reproduce.py --out reproduced --max-commands 3
 python3 reproduce.py --out reproduced --resume --max-commands 3
 ```
 
-Repeat the second command until `reproduced/reproduction.json` says `complete`. Omit the chunk flag for an uninterrupted environment. The 70-command schedule snapshots the full executable root/test Python source set, executes every command from that snapshot, and refuses resume after any source-byte or source-membership change. It compares 68 semantic JSON results, 59 exact structured inputs, and the decompressed 10,240-row collector trace. Timing and process telemetry are not equality targets. The source-count metadata is checked against the actual snapshot, rather than required to equal an earlier implementation's source count.
+Repeat the second command until `reproduced/reproduction.json` says `complete`. Omit the chunk flag for an uninterrupted environment. The 71-command schedule snapshots the full executable root/test Python source set, executes every command from that snapshot, and refuses resume after any source-byte or source-membership change. It compares 69 semantic JSON results, 59 exact structured inputs, and the decompressed 10,240-row collector trace. Timing and process telemetry are not equality targets. The source-count metadata is checked against the actual snapshot, rather than required to equal an earlier implementation's source count.
 
 `results/` holds primary service measurements and the journal's primary experiments. `results/reproduction/` holds their source-closed rerun, with command logs, inputs, and results. Primary latency numbers are not replaced by a faster rerun. A runtime interruption can be resumed at the last recorded command boundary; source changes require a fresh output.
 
@@ -25,6 +25,14 @@ python3 tests/collector_stateful.py --out journal-check
 python3 verify_history.py --directory results
 python3 summarize.py --directory results
 ```
+
+The recovery-window regression is independently runnable:
+
+```sh
+python3 tests/recovery_compaction_window.py --out recovery-window-check
+```
+
+It records the durable floor, retained counts before and after the first post-recovery compaction, the age-conditioned and $\Delta$-specialized bounds, and ten SQL/interpreter authorization rejections. The case narrows the metadata proposition; it is not reported as a core authorization failure.
 
 ## Implementation map
 

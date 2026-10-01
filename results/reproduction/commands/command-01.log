@@ -24,12 +24,12 @@
     ],
     "post_restart_reason": "revoked",
     "messages": 16,
-    "wire_bytes": 20070,
-    "server_peak_rss_kib": 97104
+    "wire_bytes": 20066,
+    "server_peak_rss_kib": 97084
   },
   "negative_control_volatile_ack_resurrected": true,
-  "wall_s": 3.902255238000066,
-  "parent_cpu_s": 0.017872370000000082,
-  "children_cpu_s": 5.656428,
-  "parent_peak_rss_kib": 94508
+  "wall_s": 2.354794597000023,
+  "parent_cpu_s": 0.007786164000000095,
+  "children_cpu_s": 3.9983969999999998,
+  "parent_peak_rss_kib": 94620
 }

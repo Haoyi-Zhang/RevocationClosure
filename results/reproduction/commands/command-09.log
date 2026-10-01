@@ -1,42 +1,8 @@
 {
-  "seed": 101,
-  "epsilon": 1,
-  "clock_offsets": [
-    -1,
-    1,
-    -1,
-    1,
-    1
-  ],
-  "logical_generated_events": 288,
-  "scheduled_use_requests": 1000,
-  "all_use_checks": 1405,
-  "reason_counts": {
-    "missing": 742,
-    "allow": 187,
-    "revoked": 430,
-    "attenuation": 15,
-    "service": 9,
-    "subject": 14,
-    "right": 8
-  },
-  "barrier_checks": 128,
-  "closed_certificates": 81,
-  "post_barrier_use_checks": 405,
-  "process_restarts": 2,
-  "distinct_states_before_anti_entropy": 5,
-  "states_after_anti_entropy": 1,
-  "anti_entropy_records": 219,
-  "records_after_common_floor_and_replay": 0,
-  "dropped_deliveries": 219,
-  "duplicate_slots": 224,
-  "rpc_median_us": 400.077,
-  "rpc_p95_us": 859.103,
-  "wall_s": 4.82036303599989,
-  "parent_cpu_s": 1.205258359,
-  "parent_peak_rss_kib": 99628,
-  "messages": 3008,
-  "wire_bytes": 3643152,
-  "server_peak_rss_kib": 98236,
-  "children_cpu_s": 4.984623
+  "retained_source_files": 24,
+  "unchanged_resume_accepted": true,
+  "changed_source_resume_rejected": true,
+  "changed_source_set_resume_rejected": true,
+  "fresh_output_required_after_source_change": true,
+  "scope": "Finite self-test of the reproduction guard; it checks byte closure of the retained Python source set, not scientific correctness."
 }

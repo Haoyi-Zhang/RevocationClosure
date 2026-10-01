@@ -1,43 +1,49 @@
 {
-  "finite_comparisons": 26852,
-  "closed_cases": 16921,
-  "open_witness_cases": 9931,
-  "feasible_histories": 137,
-  "inconsistent_histories_rejected": 34,
-  "additional_closed_cases": 2627,
-  "sql_witness_checks": 93,
-  "rejected_binding_cases": 6,
-  "legacy_status": [
-    true,
-    false
-  ],
-  "journal_status": [
-    true,
-    true,
-    true
-  ],
-  "crash_cases": [
+  "deadline": 10,
+  "epsilon": 2,
+  "observations": [
     {
-      "point": "before_transaction",
-      "exit": 70,
-      "closed_after_reopen": false,
-      "integrity": "ok"
+      "actual_time": 8,
+      "clock": 10,
+      "operation": "use",
+      "value": false,
+      "reason": "expired"
     },
     {
-      "point": "before_commit",
-      "exit": 70,
-      "closed_after_reopen": false,
-      "integrity": "ok"
+      "actual_time": 9,
+      "clock": 7,
+      "operation": "use",
+      "value": true,
+      "reason": "allow"
     },
     {
-      "point": "after_commit_before_reply",
-      "exit": 70,
-      "closed_after_reopen": true,
-      "integrity": "ok"
+      "actual_time": 10,
+      "clock": 12,
+      "operation": "barrier",
+      "value": true,
+      "reason": null
+    },
+    {
+      "actual_time": 11,
+      "clock": 9,
+      "operation": "barrier",
+      "value": false,
+      "reason": null
+    },
+    {
+      "actual_time": 11,
+      "clock": 9,
+      "operation": "use",
+      "value": false,
+      "reason": "expired"
     }
   ],
-  "mismatches": 0,
-  "wall_s": 3.3262452189999294,
-  "parent_cpu_s": 0.368915125,
-  "parent_peak_rss_kib": 95788
+  "messages": 6,
+  "wire_bytes": 4485,
+  "server_peak_rss_kib": 97068,
+  "wall_s": 0.6410408379999808,
+  "parent_cpu_s": 0.004110982000000041,
+  "children_cpu_s": 1.1002869999999998,
+  "parent_peak_rss_kib": 94764,
+  "scope": "Post-inspection trace: an early conservative time-guard rejection may become an allow before actual expiry. A genuine closure certificate still excludes all later use."
 }

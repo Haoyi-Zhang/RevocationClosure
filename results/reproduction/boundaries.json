@@ -10,7 +10,7 @@
     {
       "case": "full-store-export-envelope",
       "records": 20000,
-      "reply_wire_bytes": 5809002,
+      "reply_wire_bytes": 5809001,
       "reply_limit_bytes": 16777216
     },
     {
@@ -90,10 +90,10 @@
     }
   ],
   "messages": 181,
-  "wire_bytes": 12287479,
+  "wire_bytes": 12283319,
   "server_peak_rss_kib": 170920,
-  "wall_s": 9.036510872999997,
-  "parent_cpu_s": 5.803281584,
-  "children_cpu_s": 3.709985,
+  "wall_s": 5.498517955000125,
+  "parent_cpu_s": 3.9413058619999997,
+  "children_cpu_s": 1.990882,
   "parent_peak_rss_kib": 202664
 }

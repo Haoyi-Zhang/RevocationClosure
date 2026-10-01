@@ -27,11 +27,11 @@
     ]
   },
   "messages": 12,
-  "wire_bytes": 8166,
-  "server_peak_rss_kib": 97068,
-  "wall_s": 1.6230040420000478,
-  "parent_cpu_s": 0.22968174900000005,
-  "children_cpu_s": 1.8009089999999999,
-  "parent_peak_rss_kib": 94764,
+  "wire_bytes": 8163,
+  "server_peak_rss_kib": 97064,
+  "wall_s": 0.8558783839998796,
+  "parent_cpu_s": 0.21599719700000009,
+  "children_cpu_s": 1.084805,
+  "parent_peak_rss_kib": 94768,
   "scope": "Post-inspection finite clock-boundary check. The stateless collector can reopen its poll status after bounded clock regression; no post-certificate authorization becomes valid."
 }

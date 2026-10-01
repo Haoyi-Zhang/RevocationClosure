@@ -1037,7 +1037,7 @@
       "postclosure_decisions": 680
     }
   ],
-  "wall_s": 23.326213785000164,
-  "parent_cpu_s": 23.308227137,
-  "parent_peak_rss_kib": 96948
+  "wall_s": 11.929369018999978,
+  "parent_cpu_s": 11.92620165,
+  "parent_peak_rss_kib": 96944
 }

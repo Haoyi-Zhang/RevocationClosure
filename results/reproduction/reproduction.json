@@ -1,7 +1,7 @@
 {
   "state": "complete",
   "commands_executed_from_retained_source_snapshot": true,
-  "retained_source_files": 23,
+  "retained_source_files": 24,
   "commands": [
     {
       "command": [
@@ -11,8 +11,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 5.647182943000075,
-      "children_cpu_s": 7.8157570000000005
+      "wall_s": 3.1411291979999305,
+      "children_cpu_s": 5.191611
     },
     {
       "command": [
@@ -22,8 +22,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 23.149343524000074,
-      "children_cpu_s": 23.569489
+      "wall_s": 10.394889698999918,
+      "children_cpu_s": 10.814964000000002
     },
     {
       "command": [
@@ -33,8 +33,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 39.32998356099995,
-      "children_cpu_s": 50.519155
+      "wall_s": 20.381793930999947,
+      "children_cpu_s": 33.836657
     },
     {
       "command": [
@@ -44,8 +44,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 9.67013302099997,
-      "children_cpu_s": 12.358195000000002
+      "wall_s": 5.058499639999923,
+      "children_cpu_s": 8.130836000000002
     },
     {
       "command": [
@@ -55,8 +55,19 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 10.206009188000053,
-      "children_cpu_s": 11.070291000000003
+      "wall_s": 6.289496146999909,
+      "children_cpu_s": 7.119019
+    },
+    {
+      "command": [
+        "/opt/pyvenv/bin/python3",
+        "tests/recovery_compaction_window.py",
+        "--out",
+        "<output>"
+      ],
+      "exit_code": 0,
+      "wall_s": 0.783613177999996,
+      "children_cpu_s": 1.153526
     },
     {
       "command": [
@@ -66,8 +77,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 9.55387662999999,
-      "children_cpu_s": 9.985453000000009
+      "wall_s": 6.1803175439999904,
+      "children_cpu_s": 6.593247
     },
     {
       "command": [
@@ -77,8 +88,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 3.6405958789999886,
-      "children_cpu_s": 5.470122999999992
+      "wall_s": 2.4808004430001347,
+      "children_cpu_s": 4.235878
     },
     {
       "command": [
@@ -88,8 +99,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 0.973405343999957,
-      "children_cpu_s": 1.3727239999999998
+      "wall_s": 0.6674840830000903,
+      "children_cpu_s": 1.1175680000000003
     },
     {
       "command": [
@@ -101,8 +112,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 5.7541157730000805,
-      "children_cpu_s": 7.577036000000003
+      "wall_s": 4.287801148999961,
+      "children_cpu_s": 6.232117000000001
     },
     {
       "command": [
@@ -114,8 +125,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 9.090863896999963,
-      "children_cpu_s": 10.375452
+      "wall_s": 4.28492133199984,
+      "children_cpu_s": 6.244344999999998
     },
     {
       "command": [
@@ -127,8 +138,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 10.355924524000102,
-      "children_cpu_s": 11.32893399999999
+      "wall_s": 4.288052598000149,
+      "children_cpu_s": 6.1665319999999975
     },
     {
       "command": [
@@ -140,8 +151,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 10.361067496999794,
-      "children_cpu_s": 11.578781000000003
+      "wall_s": 4.635477282000011,
+      "children_cpu_s": 6.433605999999999
     },
     {
       "command": [
@@ -153,8 +164,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 7.257356945000083,
-      "children_cpu_s": 8.832335000000006
+      "wall_s": 4.196599632000016,
+      "children_cpu_s": 5.958219
     },
     {
       "command": [
@@ -166,8 +177,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 6.7589957379998395,
-      "children_cpu_s": 8.413821999999982
+      "wall_s": 4.499037834000092,
+      "children_cpu_s": 6.352188000000002
     },
     {
       "command": [
@@ -179,8 +190,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 7.567445557999918,
-      "children_cpu_s": 9.034860000000023
+      "wall_s": 4.93790606399989,
+      "children_cpu_s": 6.828073
     },
     {
       "command": [
@@ -192,8 +203,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 6.211565645999826,
-      "children_cpu_s": 7.849343999999984
+      "wall_s": 4.85325855300016,
+      "children_cpu_s": 6.790280999999999
     },
     {
       "command": [
@@ -209,8 +220,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.1428663320000396,
-      "children_cpu_s": 2.876175000000007
+      "wall_s": 1.5229981720001433,
+      "children_cpu_s": 2.4221550000000027
     },
     {
       "command": [
@@ -226,8 +237,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.3885489360000065,
-      "children_cpu_s": 3.2271309999999858
+      "wall_s": 1.4726948560000892,
+      "children_cpu_s": 2.324395
     },
     {
       "command": [
@@ -243,8 +254,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 1.978671537999844,
-      "children_cpu_s": 2.7287059999999776
+      "wall_s": 1.52354126299997,
+      "children_cpu_s": 2.3462829999999997
     },
     {
       "command": [
@@ -260,8 +271,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.0323653919999742,
-      "children_cpu_s": 2.760292000000014
+      "wall_s": 1.4235519569999724,
+      "children_cpu_s": 2.266897
     },
     {
       "command": [
@@ -277,8 +288,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.3378145250001126,
-      "children_cpu_s": 3.1279659999999936
+      "wall_s": 1.514626550999992,
+      "children_cpu_s": 2.3991480000000003
     },
     {
       "command": [
@@ -294,8 +305,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.26174455499995,
-      "children_cpu_s": 3.036007000000005
+      "wall_s": 1.4223396909999337,
+      "children_cpu_s": 2.3127350000000004
     },
     {
       "command": [
@@ -311,8 +322,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 3.550353049000023,
-      "children_cpu_s": 4.177717999999995
+      "wall_s": 1.5777718150000055,
+      "children_cpu_s": 2.378216
     },
     {
       "command": [
@@ -328,8 +339,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.2781229480001457,
-      "children_cpu_s": 2.9731989999999975
+      "wall_s": 1.5257827860000361,
+      "children_cpu_s": 2.426948999999999
     },
     {
       "command": [
@@ -345,8 +356,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 1.9798645559999386,
-      "children_cpu_s": 2.8675789999999637
+      "wall_s": 1.6235904519999167,
+      "children_cpu_s": 2.4152569999999995
     },
     {
       "command": [
@@ -362,8 +373,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.535971627000208,
-      "children_cpu_s": 3.4179350000000177
+      "wall_s": 1.7296597100000781,
+      "children_cpu_s": 2.583459999999998
     },
     {
       "command": [
@@ -379,8 +390,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 3.955902826999818,
-      "children_cpu_s": 4.722581999999985
+      "wall_s": 1.7236328820001745,
+      "children_cpu_s": 2.6455770000000016
     },
     {
       "command": [
@@ -396,8 +407,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 5.582978267000044,
-      "children_cpu_s": 6.4298530000000085
+      "wall_s": 1.6737823099999787,
+      "children_cpu_s": 2.46497
     },
     {
       "command": [
@@ -413,8 +424,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 3.3707693440001094,
-      "children_cpu_s": 4.122464000000015
+      "wall_s": 1.481146686999864,
+      "children_cpu_s": 2.3500959999999997
     },
     {
       "command": [
@@ -430,8 +441,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.0820477549998486,
-      "children_cpu_s": 2.935480999999985
+      "wall_s": 1.5235303740000745,
+      "children_cpu_s": 2.333411
     },
     {
       "command": [
@@ -447,8 +458,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.183268988000009,
-      "children_cpu_s": 3.100988000000026
+      "wall_s": 1.5260590840000532,
+      "children_cpu_s": 2.3386719999999985
     },
     {
       "command": [
@@ -464,8 +475,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.3346444679998513,
-      "children_cpu_s": 3.138501999999999
+      "wall_s": 1.5788829670000268,
+      "children_cpu_s": 2.3812790000000006
     },
     {
       "command": [
@@ -481,8 +492,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.023047287000054,
-      "children_cpu_s": 2.884491999999966
+      "wall_s": 1.6275591439998607,
+      "children_cpu_s": 2.4191809999999996
     },
     {
       "command": [
@@ -498,8 +509,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.2325977629998306,
-      "children_cpu_s": 2.953889000000018
+      "wall_s": 1.5370715569999902,
+      "children_cpu_s": 2.3902079999999994
     },
     {
       "command": [
@@ -515,8 +526,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.1260502039999665,
-      "children_cpu_s": 2.7510459999999988
+      "wall_s": 1.5736863629999789,
+      "children_cpu_s": 2.435661000000002
     },
     {
       "command": [
@@ -532,8 +543,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.1393474349999906,
-      "children_cpu_s": 2.8540930000000095
+      "wall_s": 1.6733522349998111,
+      "children_cpu_s": 2.6014029999999995
     },
     {
       "command": [
@@ -549,8 +560,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.123900236000054,
-      "children_cpu_s": 2.9402139999999797
+      "wall_s": 1.6722382670000115,
+      "children_cpu_s": 2.5533740000000003
     },
     {
       "command": [
@@ -566,8 +577,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.4308426950001376,
-      "children_cpu_s": 3.2339440000000046
+      "wall_s": 1.8723245910000514,
+      "children_cpu_s": 2.704309
     },
     {
       "command": [
@@ -583,8 +594,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.381146193999939,
-      "children_cpu_s": 3.1815560000000076
+      "wall_s": 1.9738924579999093,
+      "children_cpu_s": 2.7730699999999997
     },
     {
       "command": [
@@ -600,8 +611,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.826123974999973,
-      "children_cpu_s": 3.164499000000003
+      "wall_s": 2.1198270160000448,
+      "children_cpu_s": 2.940634
     },
     {
       "command": [
@@ -617,8 +628,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.5312129750000167,
-      "children_cpu_s": 3.3445469999999986
+      "wall_s": 1.9726098959999945,
+      "children_cpu_s": 2.8458389999999993
     },
     {
       "command": [
@@ -634,8 +645,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.578082256000016,
-      "children_cpu_s": 3.416939000000017
+      "wall_s": 2.0758755209999435,
+      "children_cpu_s": 2.914941999999999
     },
     {
       "command": [
@@ -651,8 +662,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.477821146999986,
-      "children_cpu_s": 3.2925699999999942
+      "wall_s": 2.025897610000129,
+      "children_cpu_s": 2.901954
     },
     {
       "command": [
@@ -668,8 +679,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 4.45546109299994,
-      "children_cpu_s": 5.1905869999999865
+      "wall_s": 2.077989959999968,
+      "children_cpu_s": 2.9769749999999986
     },
     {
       "command": [
@@ -685,8 +696,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 4.985131858999921,
-      "children_cpu_s": 5.565019000000017
+      "wall_s": 2.0270074980001027,
+      "children_cpu_s": 2.8709880000000005
     },
     {
       "command": [
@@ -702,8 +713,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 5.9962155759999405,
-      "children_cpu_s": 6.567952999999992
+      "wall_s": 2.0254270220000308,
+      "children_cpu_s": 2.895734
     },
     {
       "command": [
@@ -719,8 +730,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 4.611153389000037,
-      "children_cpu_s": 5.319018000000025
+      "wall_s": 2.0752110920000177,
+      "children_cpu_s": 2.9012139999999995
     },
     {
       "command": [
@@ -736,8 +747,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.990726488000064,
-      "children_cpu_s": 3.9095910000000025
+      "wall_s": 1.9763288259998717,
+      "children_cpu_s": 2.877473
     },
     {
       "command": [
@@ -753,8 +764,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 4.121249740999929,
-      "children_cpu_s": 4.918402000000025
+      "wall_s": 2.1261700100001235,
+      "children_cpu_s": 3.00611
     },
     {
       "command": [
@@ -770,8 +781,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 5.046675323000045,
-      "children_cpu_s": 5.807723000000017
+      "wall_s": 2.2271316850001313,
+      "children_cpu_s": 3.1061940000000003
     },
     {
       "command": [
@@ -787,8 +798,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 4.138592164999864,
-      "children_cpu_s": 4.877389999999991
+      "wall_s": 2.1765158829998654,
+      "children_cpu_s": 3.0891140000000004
     },
     {
       "command": [
@@ -804,8 +815,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 3.880327060000127,
-      "children_cpu_s": 4.776367999999984
+      "wall_s": 2.191515855000034,
+      "children_cpu_s": 3.0111170000000014
     },
     {
       "command": [
@@ -821,8 +832,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 5.251702100000102,
-      "children_cpu_s": 6.056059999999967
+      "wall_s": 2.376743977999922,
+      "children_cpu_s": 3.2222149999999994
     },
     {
       "command": [
@@ -838,8 +849,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 4.925804751999976,
-      "children_cpu_s": 5.713712000000022
+      "wall_s": 2.527605173999973,
+      "children_cpu_s": 3.3809450000000014
     },
     {
       "command": [
@@ -855,8 +866,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 4.887492186999907,
-      "children_cpu_s": 5.573196000000017
+      "wall_s": 2.4250071330000083,
+      "children_cpu_s": 3.295714999999997
     },
     {
       "command": [
@@ -872,8 +883,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 4.741478724999979,
-      "children_cpu_s": 5.630740000000003
+      "wall_s": 2.5256091749999996,
+      "children_cpu_s": 3.454624000000001
     },
     {
       "command": [
@@ -889,8 +900,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 3.64011643799995,
-      "children_cpu_s": 4.5547879999999665
+      "wall_s": 2.4276775299999827,
+      "children_cpu_s": 3.335181999999995
     },
     {
       "command": [
@@ -906,8 +917,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 3.790567610999915,
-      "children_cpu_s": 4.639942000000012
+      "wall_s": 2.5782896079999773,
+      "children_cpu_s": 3.50728
     },
     {
       "command": [
@@ -923,8 +934,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 7.127499212999965,
-      "children_cpu_s": 7.807900000000018
+      "wall_s": 2.6248061960000086,
+      "children_cpu_s": 3.5355339999999997
     },
     {
       "command": [
@@ -940,8 +951,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 5.095923624999841,
-      "children_cpu_s": 5.828742999999967
+      "wall_s": 2.625632219999943,
+      "children_cpu_s": 3.5279309999999997
     },
     {
       "command": [
@@ -957,8 +968,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 4.881916094999951,
-      "children_cpu_s": 5.716608999999977
+      "wall_s": 2.6759625419999793,
+      "children_cpu_s": 3.5192609999999998
     },
     {
       "command": [
@@ -974,8 +985,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 5.2854386010001235,
-      "children_cpu_s": 6.101843000000031
+      "wall_s": 2.828049654999859,
+      "children_cpu_s": 3.730887
     },
     {
       "command": [
@@ -991,8 +1002,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 5.9662160709999625,
-      "children_cpu_s": 6.747254999999953
+      "wall_s": 2.8830063200000495,
+      "children_cpu_s": 3.7416819999999964
     },
     {
       "command": [
@@ -1008,8 +1019,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 4.3331684789998235,
-      "children_cpu_s": 5.255450000000025
+      "wall_s": 2.878448529000025,
+      "children_cpu_s": 3.811346
     },
     {
       "command": [
@@ -1019,8 +1030,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 3.234503302000121,
-      "children_cpu_s": 3.489093000000004
+      "wall_s": 2.5236448310001833,
+      "children_cpu_s": 2.9777480000000005
     },
     {
       "command": [
@@ -1030,8 +1041,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 0.9695416949998616,
-      "children_cpu_s": 1.3289500000000416
+      "wall_s": 0.818540688999974,
+      "children_cpu_s": 1.2066200000000018
     },
     {
       "command": [
@@ -1041,8 +1052,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.6776941660000375,
-      "children_cpu_s": 3.5255999999999688
+      "wall_s": 1.6234614359998432,
+      "children_cpu_s": 2.453301
     },
     {
       "command": [
@@ -1052,8 +1063,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 2.2713105330001326,
-      "children_cpu_s": 3.0450060000000008
+      "wall_s": 1.4233900410001752,
+      "children_cpu_s": 2.297852
     },
     {
       "command": [
@@ -1063,8 +1074,8 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 4.554209035999975,
-      "children_cpu_s": 6.04659000000003
+      "wall_s": 2.6879918790000374,
+      "children_cpu_s": 4.421416999999999
     },
     {
       "command": [
@@ -1074,24 +1085,89 @@
         "<output>"
       ],
       "exit_code": 0,
-      "wall_s": 25.186775162999993,
-      "children_cpu_s": 25.435195000000043
+      "wall_s": 12.704695243999822,
+      "children_cpu_s": 13.138822000000001
     }
   ],
   "segments": [
     {
-      "wall_s": 344.69058929900007,
-      "coordinator_cpu_s": 0.5673585030000001,
-      "completed_commands": 68
+      "wall_s": 13.537827282999956,
+      "coordinator_cpu_s": 0.012923483999999874,
+      "completed_commands": 2
+    },
+    {
+      "wall_s": 25.440964446999942,
+      "coordinator_cpu_s": 0.0187093519999999,
+      "completed_commands": 2
+    },
+    {
+      "wall_s": 6.289881625000135,
+      "coordinator_cpu_s": 0.0058372340000001355,
+      "completed_commands": 1
+    },
+    {
+      "wall_s": 10.11349753200011,
+      "coordinator_cpu_s": 0.009994245000000124,
+      "completed_commands": 4
+    },
+    {
+      "wall_s": 12.862134697000101,
+      "coordinator_cpu_s": 0.011526262000000065,
+      "completed_commands": 3
+    },
+    {
+      "wall_s": 13.332265515000017,
+      "coordinator_cpu_s": 0.011268056999999887,
+      "completed_commands": 3
+    },
+    {
+      "wall_s": 11.315188933999934,
+      "coordinator_cpu_s": 0.009378050999999998,
+      "completed_commands": 3
+    },
+    {
+      "wall_s": 15.541209883999954,
+      "coordinator_cpu_s": 0.02074202000000014,
+      "completed_commands": 10
+    },
+    {
+      "wall_s": 15.87232106800002,
+      "coordinator_cpu_s": 0.023387021000000008,
+      "completed_commands": 10
+    },
+    {
+      "wall_s": 20.250680692999822,
+      "coordinator_cpu_s": 0.024821557000000105,
+      "completed_commands": 10
+    },
+    {
+      "wall_s": 22.985489182000038,
+      "coordinator_cpu_s": 0.030028724000000118,
+      "completed_commands": 10
+    },
+    {
+      "wall_s": 24.064662491999798,
+      "coordinator_cpu_s": 0.02818761000000003,
+      "completed_commands": 10
+    },
+    {
+      "wall_s": 1.4242138639999666,
+      "coordinator_cpu_s": 0.0022769099999999654,
+      "completed_commands": 1
+    },
+    {
+      "wall_s": 15.393773580000015,
+      "coordinator_cpu_s": 0.014708044999999892,
+      "completed_commands": 2
     }
   ],
   "failed_attempts": [],
-  "semantic_comparisons": 68,
+  "semantic_comparisons": 69,
   "exact_structured_inputs_compared": 59,
   "timing_equality_required": false,
-  "completed_segment_wall_s": 344.69058929900007,
-  "coordinator_cpu_s": 0.5673585030000001,
-  "command_children_cpu_s": 446.24084100000005,
-  "coordinator_peak_rss_kib": 141428,
+  "completed_segment_wall_s": 208.4241107959998,
+  "coordinator_cpu_s": 0.22378857200000024,
+  "command_children_cpu_s": 292.362023,
+  "coordinator_peak_rss_kib": 141432,
   "boundary": "Successful finite checks and exact fixture/semantic replay are not a proof of general correctness or an independent scientific review."
 }

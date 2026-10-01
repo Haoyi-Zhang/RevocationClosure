@@ -39,11 +39,11 @@
     }
   ],
   "messages": 6,
-  "wire_bytes": 4484,
-  "server_peak_rss_kib": 97072,
-  "wall_s": 0.828065911000067,
-  "parent_cpu_s": 0.005533589999999977,
-  "children_cpu_s": 1.223692,
+  "wire_bytes": 4485,
+  "server_peak_rss_kib": 97068,
+  "wall_s": 0.6410408379999808,
+  "parent_cpu_s": 0.004110982000000041,
+  "children_cpu_s": 1.1002869999999998,
   "parent_peak_rss_kib": 94764,
   "scope": "Post-inspection trace: an early conservative time-guard rejection may become an allow before actual expiry. A genuine closure certificate still excludes all later use."
 }
