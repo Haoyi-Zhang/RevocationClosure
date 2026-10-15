@@ -86,3 +86,9 @@ The complete project also contains `paper/`; from that directory run
 `sh build.sh` for the main manuscript and separate supplement. The script uses
 the supplied unmodified IEEEtran class/style and an isolated temporary build.
 The standalone code repository intentionally contains only this artifact.
+
+The three protocol schematics are drawn directly by
+`figures/draw_schematics.py` using ReportLab and the manuscript's URW Times
+font from TeX Live. With `kpsewhich` on `PATH`, regenerate them with
+`python3 -B figures/draw_schematics.py`. The resulting vector PDFs embed
+the font and are included by the manuscript without rasterization.
