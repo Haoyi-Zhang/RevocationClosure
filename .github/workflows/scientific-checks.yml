@@ -23,6 +23,16 @@ jobs:
         run: python -B tests/compaction_transactions.py
       - name: Check current replay input admission
         run: python -B tests/replay_input_contract.py
+      - name: Check independently recoverable gateway processes
+        timeout-minutes: 3
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -B tests/test_separate_processes.py
+          python -B -O tests/test_separate_processes.py
+          python -B separate_processes.py verify --directory results/process-separation
+          output_directory="$(mktemp -d "$RUNNER_TEMP/revocation-processes.XXXXXX")"
+          python -B separate_processes.py run --out "$output_directory/run" --compare results/process-separation/summary.json
       - name: Reproduce all 71 scientific commands sequentially
         id: reproduce
         timeout-minutes: 25

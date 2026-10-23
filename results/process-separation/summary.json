@@ -1,0 +1,158 @@
+{
+  "gateways_concurrently_process_separated": 5,
+  "hosts": 1,
+  "gateway_restart_events_positive": 6,
+  "collector_fault_events": 2,
+  "postcompletion_checks": 20,
+  "postcompletion_allows": 0,
+  "postcompletion_decisions": [
+    {
+      "phase": "late-descendants",
+      "node": 0,
+      "depth": 1,
+      "allow": false,
+      "reason": "revoked"
+    },
+    {
+      "phase": "late-descendants",
+      "node": 0,
+      "depth": 2,
+      "allow": false,
+      "reason": "revoked"
+    },
+    {
+      "phase": "late-descendants",
+      "node": 1,
+      "depth": 1,
+      "allow": false,
+      "reason": "revoked"
+    },
+    {
+      "phase": "late-descendants",
+      "node": 1,
+      "depth": 2,
+      "allow": false,
+      "reason": "revoked"
+    },
+    {
+      "phase": "late-descendants",
+      "node": 2,
+      "depth": 1,
+      "allow": false,
+      "reason": "revoked"
+    },
+    {
+      "phase": "late-descendants",
+      "node": 2,
+      "depth": 2,
+      "allow": false,
+      "reason": "revoked"
+    },
+    {
+      "phase": "late-descendants",
+      "node": 3,
+      "depth": 1,
+      "allow": false,
+      "reason": "expired"
+    },
+    {
+      "phase": "late-descendants",
+      "node": 3,
+      "depth": 2,
+      "allow": false,
+      "reason": "expired"
+    },
+    {
+      "phase": "late-descendants",
+      "node": 4,
+      "depth": 1,
+      "allow": false,
+      "reason": "expired"
+    },
+    {
+      "phase": "late-descendants",
+      "node": 4,
+      "depth": 2,
+      "allow": false,
+      "reason": "expired"
+    },
+    {
+      "phase": "after-all-gateway-recovery",
+      "node": 0,
+      "depth": 1,
+      "allow": false,
+      "reason": "revoked"
+    },
+    {
+      "phase": "after-all-gateway-recovery",
+      "node": 0,
+      "depth": 2,
+      "allow": false,
+      "reason": "revoked"
+    },
+    {
+      "phase": "after-all-gateway-recovery",
+      "node": 1,
+      "depth": 1,
+      "allow": false,
+      "reason": "revoked"
+    },
+    {
+      "phase": "after-all-gateway-recovery",
+      "node": 1,
+      "depth": 2,
+      "allow": false,
+      "reason": "revoked"
+    },
+    {
+      "phase": "after-all-gateway-recovery",
+      "node": 2,
+      "depth": 1,
+      "allow": false,
+      "reason": "revoked"
+    },
+    {
+      "phase": "after-all-gateway-recovery",
+      "node": 2,
+      "depth": 2,
+      "allow": false,
+      "reason": "revoked"
+    },
+    {
+      "phase": "after-all-gateway-recovery",
+      "node": 3,
+      "depth": 1,
+      "allow": false,
+      "reason": "expired"
+    },
+    {
+      "phase": "after-all-gateway-recovery",
+      "node": 3,
+      "depth": 2,
+      "allow": false,
+      "reason": "expired"
+    },
+    {
+      "phase": "after-all-gateway-recovery",
+      "node": 4,
+      "depth": 1,
+      "allow": false,
+      "reason": "expired"
+    },
+    {
+      "phase": "after-all-gateway-recovery",
+      "node": 4,
+      "depth": 2,
+      "allow": false,
+      "reason": "expired"
+    }
+  ],
+  "collector_clock_regression_retained_lower": 40,
+  "same_information_reference_equal": true,
+  "stateless_control_closed": [
+    true,
+    false
+  ],
+  "volatile_control_resurrected": true,
+  "identity_and_clock_source": "public fixture authentication and harness-supplied bounded clocks"
+}

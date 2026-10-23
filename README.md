@@ -60,6 +60,7 @@ common admitted workloads from saturated offered pools.
 | `capability.py` | SQL records, attenuation, ancestry decisions, admission and reclamation |
 | `verifier.py` | Separate set/dictionary authorization interpreter |
 | `server.py`, `transport.py` | Five sockets and five stores in one owned server process |
+| `separate_processes.py` | Five independent owned gateway processes, collector commit-boundary exits and late descendants |
 | `collector.py`, `collector_reference.py` | Durable evidence join and same-contract latest-state reference |
 | `lookup_batch.py` | Local batched/sequential ancestry comparison |
 | `results/` | Retained primary inputs, decisions, traces and measurements |
@@ -68,11 +69,29 @@ common admitted workloads from saturated offered pools.
 | `claim_evidence_ledger.csv` | Claim-to-proof, implementation and result mapping |
 | `source_notes.md`, `external_resources.csv` | Sources, provenance and licenses |
 
-The five endpoints share one host and one gateway-service process. The model
+The original five endpoints share one host and one gateway-service process. The model
 uses fixed honest membership, authentic immutable records, bounded nonnegative
 clocks and non-rollback durable storage. Public fixture keys are model inputs,
 not production credentials. Local recovery tests distinguish transaction
 rollback, reply loss and database reopen from physical power loss.
+
+A separate recovery study starts five simultaneous gateway processes on one host.
+It restarts one gateway without terminating its four peers, then all five gateways;
+two collector exits bracket commit. Twenty post-completion checks of descendants
+at two depths reject and match the separate interpreter. The same-information
+durable reference returns the same completion state. Stateless and volatile
+controls retain their distinct failures. Keys and bounded clocks remain fixtures;
+independent hosts, authenticated user sessions and power loss are not tested.
+
+```sh
+python3 -B tests/test_separate_processes.py
+python3 -B separate_processes.py verify --directory results/process-separation
+python3 -B separate_processes.py run --out "${OUT}-processes" --compare results/process-separation/summary.json
+```
+
+The process study is portable to Windows and POSIX; the original full campaign
+still requires POSIX. Retained process IDs and ports identify the captured run,
+not equality targets across runs. Stable decisions and scope are compared exactly.
 
 `STATISTICAL-NOTES.md` explains the actual denominators and error bars.
 `resource_accounting.md` describes the retained campaign, not an assumed source
