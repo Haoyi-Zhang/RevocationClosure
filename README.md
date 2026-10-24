@@ -111,3 +111,12 @@ The three protocol schematics are drawn directly by
 font from TeX Live. With `kpsewhich` on `PATH`, regenerate them with
 `python3 -B figures/draw_schematics.py`. The resulting vector PDFs embed
 the font and are included by the manuscript without rasterization.
+# Connected quota-to-closure case
+
+The added `capacity/integrated_closure.py` study connects real quota-store
+fixture receipts, both completion collectors, admitted late descendants and
+actual subprocess recovery. Reproduction, raw inputs and the same-contract
+comparison are described in `docs/integrated-closure.md`. It is separate from
+the retained 71-command campaign and the 750-case capacity campaign; neither
+is relabeled as a rerun. The supplied six-case result is under
+`capacity/results/integrated-closure/`.

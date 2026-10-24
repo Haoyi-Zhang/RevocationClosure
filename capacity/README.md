@@ -6,6 +6,17 @@ immutable single-parent capability chains with attenuating deadlines and rights,
 complete ancestry checks, bounded nonnegative clocks, and durable local commits.
 The normal and early-revocation quotas are fixed at initialization.
 
+`integrated_closure.py` additionally connects this store's actual authenticated
+fixture receipts to the root collector and its same-information durable
+reference. Six common/saturated local cases include pressure, late descendants,
+gateway and collector postcommit process exits and recovered SQL/specification
+checks. See `../docs/integrated-closure.md` for its exact consumer and scope.
+
+```sh
+python -B integrated_closure.py --out results/fresh-integrated
+python -B integrated_closure.py --out results/integrated-closure --verify --table ../../paper/integrated-closure.tex
+```
+
 Run from this directory with Python 3.12 and assertions enabled:
 
 ```sh

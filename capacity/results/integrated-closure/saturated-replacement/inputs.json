@@ -1,0 +1,349 @@
+{
+  "cohort": "saturated",
+  "policy": "replacement",
+  "budget": 12,
+  "unseen": 2,
+  "epsilon": 2,
+  "offered": [
+    {
+      "kind": "grant",
+      "issuer": 0,
+      "subject": 1,
+      "parent": null,
+      "rights": 3,
+      "deadlines": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "nonce": "integrated-root",
+      "service": "svc0",
+      "id": "40c6653f097b19efaa874b8928fa01f6c30bbc70ffbf165ce5451843eac71535",
+      "mac": "074deb55852f7b043cce90703dd353e060a122aeadf75287426abec7916d9f2f"
+    },
+    {
+      "kind": "grant",
+      "issuer": 1,
+      "subject": 2,
+      "parent": "40c6653f097b19efaa874b8928fa01f6c30bbc70ffbf165ce5451843eac71535",
+      "rights": 1,
+      "deadlines": [
+        1000,
+        1000,
+        1000,
+        40,
+        40
+      ],
+      "nonce": "integrated-target",
+      "service": "svc0",
+      "id": "33b92b5c44fd831c4cb1380a3afb76a10c1ece29fd7bc2115667754a2bb19ec0",
+      "mac": "4201898d946a11740a788d49c0a607f7d2057f498d5116d09c61d5b47609c8ae"
+    },
+    {
+      "kind": "grant",
+      "issuer": 0,
+      "subject": 4,
+      "parent": null,
+      "rights": 1,
+      "deadlines": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "nonce": "integrated-control",
+      "service": "svc0",
+      "id": "f3506a8562d32a5312781fbad2800983b07eb72ec3a621b35d11219a7d0e70d5",
+      "mac": "10b6d730cd3b3445067ab3d2c1ccb461da9719533bd8a0b297e0cc65030db9db"
+    },
+    {
+      "kind": "grant",
+      "issuer": 0,
+      "subject": 1,
+      "parent": null,
+      "rights": 1,
+      "deadlines": [
+        38,
+        38,
+        38,
+        38,
+        38
+      ],
+      "nonce": "pressure-0",
+      "service": "svc0",
+      "id": "e49737aadabcf71c7981a6b9479e1bd88bf27e4e770ea084afa641e226c05d49",
+      "mac": "42c2d6be845485a1e290c5f8dedef3f1161e2df21330c776889964667973ef75"
+    },
+    {
+      "kind": "grant",
+      "issuer": 0,
+      "subject": 1,
+      "parent": null,
+      "rights": 1,
+      "deadlines": [
+        38,
+        38,
+        38,
+        38,
+        38
+      ],
+      "nonce": "pressure-1",
+      "service": "svc0",
+      "id": "a9721115c52d421dcd2329ad5efca2444227f7940bb9b9accb6b684c4c20bb0b",
+      "mac": "a6bf064a8fc56bb50732278fe7a366adad1905e0ddada6b2e3b1ac66c8c6488a"
+    },
+    {
+      "kind": "grant",
+      "issuer": 0,
+      "subject": 1,
+      "parent": null,
+      "rights": 1,
+      "deadlines": [
+        38,
+        38,
+        38,
+        38,
+        38
+      ],
+      "nonce": "pressure-2",
+      "service": "svc0",
+      "id": "b32715d1888e4e787e135e68905efe7aa2df997efbc5448585f83f846c5d4d27",
+      "mac": "81a96d92d1c764076aad007be576e32734765a87f076d087f81ceaa2bbac795a"
+    },
+    {
+      "kind": "grant",
+      "issuer": 0,
+      "subject": 1,
+      "parent": null,
+      "rights": 1,
+      "deadlines": [
+        38,
+        38,
+        38,
+        38,
+        38
+      ],
+      "nonce": "pressure-3",
+      "service": "svc0",
+      "id": "1df5ebed74dda813d7d5b3d8a973ff3babcb16a18216f64644faff1a8146cfa9",
+      "mac": "d1f62fb1b54b2b19b31b66808f71b3083d48559b2ce989b232afbdb07493ecdb"
+    },
+    {
+      "kind": "grant",
+      "issuer": 0,
+      "subject": 1,
+      "parent": null,
+      "rights": 1,
+      "deadlines": [
+        38,
+        38,
+        38,
+        38,
+        38
+      ],
+      "nonce": "pressure-4",
+      "service": "svc0",
+      "id": "40a94a41261676ab8da37f2e74e5973b0007c81e67a126f171bbe759a8d1c241",
+      "mac": "13f228024a9fc2342bdf45050a37013726beb7feeb3d99594f8de604d23d1b9a"
+    },
+    {
+      "kind": "grant",
+      "issuer": 0,
+      "subject": 1,
+      "parent": null,
+      "rights": 1,
+      "deadlines": [
+        38,
+        38,
+        38,
+        38,
+        38
+      ],
+      "nonce": "pressure-5",
+      "service": "svc0",
+      "id": "728f59465af3e3c980850000c9adc7d66b91af44fa7d9e5b158e56e1b9da8d48",
+      "mac": "3b5cdcd9198665bf7e30f2302163eb158965480f3763d20d3826781f2a33211b"
+    },
+    {
+      "kind": "grant",
+      "issuer": 0,
+      "subject": 1,
+      "parent": null,
+      "rights": 1,
+      "deadlines": [
+        38,
+        38,
+        38,
+        38,
+        38
+      ],
+      "nonce": "pressure-6",
+      "service": "svc0",
+      "id": "5580b8b168b9eec13e87937f1ea97004a87ac424da4a9157cfb019e06463e875",
+      "mac": "22ad75a7cc07269aad3114e3f7b40179d153850dc211e3042867b5d8dfc859e6"
+    },
+    {
+      "kind": "grant",
+      "issuer": 0,
+      "subject": 1,
+      "parent": null,
+      "rights": 1,
+      "deadlines": [
+        38,
+        38,
+        38,
+        38,
+        38
+      ],
+      "nonce": "pressure-7",
+      "service": "svc0",
+      "id": "c48eb2048c5f216fb28ae1d8063aadc0d8e5d69719cbff04b1a4a57397b8499e",
+      "mac": "f0553eda6080ffd811e1cab29d5e4eb9359f458c2611d714504fe66d07cda569"
+    },
+    {
+      "kind": "grant",
+      "issuer": 0,
+      "subject": 1,
+      "parent": null,
+      "rights": 1,
+      "deadlines": [
+        38,
+        38,
+        38,
+        38,
+        38
+      ],
+      "nonce": "pressure-8",
+      "service": "svc0",
+      "id": "0b3e45d2f6c790a653ea4b9d75ac4b3912e1b12a8fa52b732b73226c1b46f6ec",
+      "mac": "cf35f5395505c013bdcad1bb2bd0194e2f9ff551f9fde53ab13228ac98fa91c2"
+    }
+  ],
+  "target": {
+    "kind": "grant",
+    "issuer": 1,
+    "subject": 2,
+    "parent": "40c6653f097b19efaa874b8928fa01f6c30bbc70ffbf165ce5451843eac71535",
+    "rights": 1,
+    "deadlines": [
+      1000,
+      1000,
+      1000,
+      40,
+      40
+    ],
+    "nonce": "integrated-target",
+    "service": "svc0",
+    "id": "33b92b5c44fd831c4cb1380a3afb76a10c1ece29fd7bc2115667754a2bb19ec0",
+    "mac": "4201898d946a11740a788d49c0a607f7d2057f498d5116d09c61d5b47609c8ae"
+  },
+  "revoke": {
+    "kind": "revoke",
+    "issuer": 1,
+    "target": {
+      "kind": "grant",
+      "issuer": 1,
+      "subject": 2,
+      "parent": "40c6653f097b19efaa874b8928fa01f6c30bbc70ffbf165ce5451843eac71535",
+      "rights": 1,
+      "deadlines": [
+        1000,
+        1000,
+        1000,
+        40,
+        40
+      ],
+      "nonce": "integrated-target",
+      "service": "svc0",
+      "id": "33b92b5c44fd831c4cb1380a3afb76a10c1ece29fd7bc2115667754a2bb19ec0",
+      "mac": "4201898d946a11740a788d49c0a607f7d2057f498d5116d09c61d5b47609c8ae"
+    },
+    "id": "11e33412861be02eb6323240bd5cb93a8d4ab2e3b8acb1229b528436fdb7034f",
+    "mac": "c979adc1b27185a0bef3ca24a4a22fdccee9ca93d9a8aeebd21ea8203cd17288"
+  },
+  "children": [
+    {
+      "kind": "grant",
+      "issuer": 2,
+      "subject": 3,
+      "parent": "33b92b5c44fd831c4cb1380a3afb76a10c1ece29fd7bc2115667754a2bb19ec0",
+      "rights": 1,
+      "deadlines": [
+        1000,
+        1000,
+        1000,
+        40,
+        40
+      ],
+      "nonce": "withheld-child",
+      "service": "svc0",
+      "id": "5cc7dd107e1ab0797597473478fee65e2aef6e775fe6f73d027d013b651b4d06",
+      "mac": "cbaa76be9ae7797bcb51f723910f7a314f018cefe7ae9e25ff56e89034be0738"
+    },
+    {
+      "kind": "grant",
+      "issuer": 3,
+      "subject": 4,
+      "parent": "5cc7dd107e1ab0797597473478fee65e2aef6e775fe6f73d027d013b651b4d06",
+      "rights": 1,
+      "deadlines": [
+        1000,
+        1000,
+        1000,
+        40,
+        40
+      ],
+      "nonce": "withheld-grandchild",
+      "service": "svc0",
+      "id": "029a1275ac20d8dac97916681393877981c6cbb82c6c58b30b96f2cbeb9ebce6",
+      "mac": "6a01e847c86157ee03231a46ce17b8bae3e9b9dadf369b0023a82897a1410803"
+    }
+  ],
+  "control": {
+    "kind": "grant",
+    "issuer": 0,
+    "subject": 4,
+    "parent": null,
+    "rights": 1,
+    "deadlines": [
+      1000,
+      1000,
+      1000,
+      1000,
+      1000
+    ],
+    "nonce": "integrated-control",
+    "service": "svc0",
+    "id": "f3506a8562d32a5312781fbad2800983b07eb72ec3a621b35d11219a7d0e70d5",
+    "mac": "10b6d730cd3b3445067ab3d2c1ccb461da9719533bd8a0b297e0cc65030db9db"
+  },
+  "receipts": [
+    {
+      "kind": "receipt",
+      "gateway": 0,
+      "revocation": "11e33412861be02eb6323240bd5cb93a8d4ab2e3b8acb1229b528436fdb7034f",
+      "target": "33b92b5c44fd831c4cb1380a3afb76a10c1ece29fd7bc2115667754a2bb19ec0",
+      "id": "6ade8c831e880554ee8d800fcfcfaeab9873d8259ca115c5cd2d225a3e3af221",
+      "mac": "7efbd1f199c1a85bd957cec59a1f8834afac19ca02a89d510b1cb7b050394e68"
+    },
+    {
+      "kind": "receipt",
+      "gateway": 1,
+      "revocation": "11e33412861be02eb6323240bd5cb93a8d4ab2e3b8acb1229b528436fdb7034f",
+      "target": "33b92b5c44fd831c4cb1380a3afb76a10c1ece29fd7bc2115667754a2bb19ec0",
+      "id": "fec948517593386c86ac486c0053c8ed793aefc9f576bade47a41007dc98b9c8",
+      "mac": "92feb7f6414f8493b4e54306162ebf8ee7eeaa241f854764f66232918a9a7a4d"
+    },
+    {
+      "kind": "receipt",
+      "gateway": 2,
+      "revocation": "11e33412861be02eb6323240bd5cb93a8d4ab2e3b8acb1229b528436fdb7034f",
+      "target": "33b92b5c44fd831c4cb1380a3afb76a10c1ece29fd7bc2115667754a2bb19ec0",
+      "id": "0ad9d33b619276e8dbab4160d94ce5ecc4968f399b8ae4863a1c033b4152bdf8",
+      "mac": "0c84adf2fd5e2445de26eca820ba540d15bae89ca3ee830cedbbd69c776078f4"
+    }
+  ]
+}

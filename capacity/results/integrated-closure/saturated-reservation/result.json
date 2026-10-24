@@ -1,0 +1,622 @@
+{
+  "cohort": "saturated",
+  "policy": "reservation",
+  "admitted_grants_per_gateway": [
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "grant_refusals": 35,
+  "receipts": 3,
+  "revoke_refusals": 0,
+  "logical_records_after_revokes": [
+    6,
+    6,
+    6,
+    5,
+    5
+  ],
+  "closed_at_logical_time": 42,
+  "closed_after_recovery": true,
+  "late_descendant_checks": 10,
+  "late_descendant_allows": 0,
+  "control_allows": 5,
+  "physical": {
+    "after_grants": [
+      {
+        "files_bytes": {
+          "db": 4096,
+          "-wal": 82432,
+          "-shm": 32768
+        },
+        "total_file_bytes": 119296,
+        "page_size": 4096,
+        "page_count": 5,
+        "freelist_count": 0,
+        "wal_file_frame_slots": 20,
+        "interpretation": "file extent, not physical-write count or a disk-space guarantee"
+      },
+      {
+        "files_bytes": {
+          "db": 4096,
+          "-wal": 82432,
+          "-shm": 32768
+        },
+        "total_file_bytes": 119296,
+        "page_size": 4096,
+        "page_count": 5,
+        "freelist_count": 0,
+        "wal_file_frame_slots": 20,
+        "interpretation": "file extent, not physical-write count or a disk-space guarantee"
+      },
+      {
+        "files_bytes": {
+          "db": 4096,
+          "-wal": 82432,
+          "-shm": 32768
+        },
+        "total_file_bytes": 119296,
+        "page_size": 4096,
+        "page_count": 5,
+        "freelist_count": 0,
+        "wal_file_frame_slots": 20,
+        "interpretation": "file extent, not physical-write count or a disk-space guarantee"
+      },
+      {
+        "files_bytes": {
+          "db": 4096,
+          "-wal": 82432,
+          "-shm": 32768
+        },
+        "total_file_bytes": 119296,
+        "page_size": 4096,
+        "page_count": 5,
+        "freelist_count": 0,
+        "wal_file_frame_slots": 20,
+        "interpretation": "file extent, not physical-write count or a disk-space guarantee"
+      },
+      {
+        "files_bytes": {
+          "db": 4096,
+          "-wal": 82432,
+          "-shm": 32768
+        },
+        "total_file_bytes": 119296,
+        "page_size": 4096,
+        "page_count": 5,
+        "freelist_count": 0,
+        "wal_file_frame_slots": 20,
+        "interpretation": "file extent, not physical-write count or a disk-space guarantee"
+      }
+    ],
+    "after_revokes": [
+      {
+        "files_bytes": {
+          "db": 4096,
+          "-wal": 94792,
+          "-shm": 32768
+        },
+        "total_file_bytes": 131656,
+        "page_size": 4096,
+        "page_count": 5,
+        "freelist_count": 0,
+        "wal_file_frame_slots": 23,
+        "interpretation": "file extent, not physical-write count or a disk-space guarantee"
+      },
+      {
+        "files_bytes": {
+          "db": 20480,
+          "-wal": 12392,
+          "-shm": 32768
+        },
+        "total_file_bytes": 65640,
+        "page_size": 4096,
+        "page_count": 5,
+        "freelist_count": 0,
+        "wal_file_frame_slots": 3,
+        "interpretation": "file extent, not physical-write count or a disk-space guarantee"
+      },
+      {
+        "files_bytes": {
+          "db": 4096,
+          "-wal": 94792,
+          "-shm": 32768
+        },
+        "total_file_bytes": 131656,
+        "page_size": 4096,
+        "page_count": 5,
+        "freelist_count": 0,
+        "wal_file_frame_slots": 23,
+        "interpretation": "file extent, not physical-write count or a disk-space guarantee"
+      },
+      {
+        "files_bytes": {
+          "db": 4096,
+          "-wal": 82432,
+          "-shm": 32768
+        },
+        "total_file_bytes": 119296,
+        "page_size": 4096,
+        "page_count": 5,
+        "freelist_count": 0,
+        "wal_file_frame_slots": 20,
+        "interpretation": "file extent, not physical-write count or a disk-space guarantee"
+      },
+      {
+        "files_bytes": {
+          "db": 4096,
+          "-wal": 82432,
+          "-shm": 32768
+        },
+        "total_file_bytes": 119296,
+        "page_size": 4096,
+        "page_count": 5,
+        "freelist_count": 0,
+        "wal_file_frame_slots": 20,
+        "interpretation": "file extent, not physical-write count or a disk-space guarantee"
+      }
+    ],
+    "after_late_children": [
+      {
+        "files_bytes": {
+          "db": 4096,
+          "-wal": 123632,
+          "-shm": 32768
+        },
+        "total_file_bytes": 160496,
+        "page_size": 4096,
+        "page_count": 5,
+        "freelist_count": 0,
+        "wal_file_frame_slots": 30,
+        "interpretation": "file extent, not physical-write count or a disk-space guarantee"
+      },
+      {
+        "files_bytes": {
+          "db": 20480,
+          "-wal": 41232,
+          "-shm": 32768
+        },
+        "total_file_bytes": 94480,
+        "page_size": 4096,
+        "page_count": 5,
+        "freelist_count": 0,
+        "wal_file_frame_slots": 10,
+        "interpretation": "file extent, not physical-write count or a disk-space guarantee"
+      },
+      {
+        "files_bytes": {
+          "db": 4096,
+          "-wal": 123632,
+          "-shm": 32768
+        },
+        "total_file_bytes": 160496,
+        "page_size": 4096,
+        "page_count": 5,
+        "freelist_count": 0,
+        "wal_file_frame_slots": 30,
+        "interpretation": "file extent, not physical-write count or a disk-space guarantee"
+      },
+      {
+        "files_bytes": {
+          "db": 4096,
+          "-wal": 111272,
+          "-shm": 32768
+        },
+        "total_file_bytes": 148136,
+        "page_size": 4096,
+        "page_count": 5,
+        "freelist_count": 0,
+        "wal_file_frame_slots": 27,
+        "interpretation": "file extent, not physical-write count or a disk-space guarantee"
+      },
+      {
+        "files_bytes": {
+          "db": 4096,
+          "-wal": 111272,
+          "-shm": 32768
+        },
+        "total_file_bytes": 148136,
+        "page_size": 4096,
+        "page_count": 5,
+        "freelist_count": 0,
+        "wal_file_frame_slots": 27,
+        "interpretation": "file extent, not physical-write count or a disk-space guarantee"
+      }
+    ]
+  },
+  "local_revoke_call_seconds": 0.06742750003468245,
+  "timing_boundary": "includes selected subprocess startup/crash/retry, excludes collector; not a policy latency comparison",
+  "observations": [
+    {
+      "actual_time": 20,
+      "clock": 20,
+      "journal": {
+        "closed": false,
+        "cover": [
+          "receipt",
+          "receipt",
+          "receipt",
+          "open",
+          "open"
+        ],
+        "lower_time": 18,
+        "receipt_mask": 7,
+        "uncovered_witness": {
+          "gateway": 3,
+          "possible_actual_time": 18,
+          "possible_gateway_clock": 16,
+          "gateway_upper_bound": 18,
+          "target_deadline": 40
+        }
+      },
+      "reference": {
+        "closed": false,
+        "cover": [
+          "receipt",
+          "receipt",
+          "receipt",
+          "open",
+          "open"
+        ],
+        "lower_time": 18,
+        "receipt_mask": 7,
+        "uncovered_witness": {
+          "gateway": 3,
+          "possible_actual_time": 18,
+          "possible_gateway_clock": 16,
+          "gateway_upper_bound": 18,
+          "target_deadline": 40
+        }
+      }
+    },
+    {
+      "actual_time": 42,
+      "clock": 42,
+      "journal": {
+        "closed": true,
+        "cover": [
+          "receipt",
+          "receipt",
+          "receipt",
+          "expiry",
+          "expiry"
+        ],
+        "lower_time": 40,
+        "receipt_mask": 7,
+        "uncovered_witness": null
+      },
+      "reference": {
+        "closed": true,
+        "cover": [
+          "receipt",
+          "receipt",
+          "receipt",
+          "expiry",
+          "expiry"
+        ],
+        "lower_time": 40,
+        "receipt_mask": 7,
+        "uncovered_witness": null
+      }
+    }
+  ],
+  "grant_refusal_records": [
+    {
+      "node": 0,
+      "target": "b32715d1888e4e787e135e68905efe7aa2df997efbc5448585f83f846c5d4d27",
+      "reason": "grant quota"
+    },
+    {
+      "node": 0,
+      "target": "1df5ebed74dda813d7d5b3d8a973ff3babcb16a18216f64644faff1a8146cfa9",
+      "reason": "grant quota"
+    },
+    {
+      "node": 0,
+      "target": "40a94a41261676ab8da37f2e74e5973b0007c81e67a126f171bbe759a8d1c241",
+      "reason": "grant quota"
+    },
+    {
+      "node": 0,
+      "target": "728f59465af3e3c980850000c9adc7d66b91af44fa7d9e5b158e56e1b9da8d48",
+      "reason": "grant quota"
+    },
+    {
+      "node": 0,
+      "target": "5580b8b168b9eec13e87937f1ea97004a87ac424da4a9157cfb019e06463e875",
+      "reason": "grant quota"
+    },
+    {
+      "node": 0,
+      "target": "c48eb2048c5f216fb28ae1d8063aadc0d8e5d69719cbff04b1a4a57397b8499e",
+      "reason": "grant quota"
+    },
+    {
+      "node": 0,
+      "target": "0b3e45d2f6c790a653ea4b9d75ac4b3912e1b12a8fa52b732b73226c1b46f6ec",
+      "reason": "grant quota"
+    },
+    {
+      "node": 1,
+      "target": "b32715d1888e4e787e135e68905efe7aa2df997efbc5448585f83f846c5d4d27",
+      "reason": "grant quota"
+    },
+    {
+      "node": 1,
+      "target": "1df5ebed74dda813d7d5b3d8a973ff3babcb16a18216f64644faff1a8146cfa9",
+      "reason": "grant quota"
+    },
+    {
+      "node": 1,
+      "target": "40a94a41261676ab8da37f2e74e5973b0007c81e67a126f171bbe759a8d1c241",
+      "reason": "grant quota"
+    },
+    {
+      "node": 1,
+      "target": "728f59465af3e3c980850000c9adc7d66b91af44fa7d9e5b158e56e1b9da8d48",
+      "reason": "grant quota"
+    },
+    {
+      "node": 1,
+      "target": "5580b8b168b9eec13e87937f1ea97004a87ac424da4a9157cfb019e06463e875",
+      "reason": "grant quota"
+    },
+    {
+      "node": 1,
+      "target": "c48eb2048c5f216fb28ae1d8063aadc0d8e5d69719cbff04b1a4a57397b8499e",
+      "reason": "grant quota"
+    },
+    {
+      "node": 1,
+      "target": "0b3e45d2f6c790a653ea4b9d75ac4b3912e1b12a8fa52b732b73226c1b46f6ec",
+      "reason": "grant quota"
+    },
+    {
+      "node": 2,
+      "target": "b32715d1888e4e787e135e68905efe7aa2df997efbc5448585f83f846c5d4d27",
+      "reason": "grant quota"
+    },
+    {
+      "node": 2,
+      "target": "1df5ebed74dda813d7d5b3d8a973ff3babcb16a18216f64644faff1a8146cfa9",
+      "reason": "grant quota"
+    },
+    {
+      "node": 2,
+      "target": "40a94a41261676ab8da37f2e74e5973b0007c81e67a126f171bbe759a8d1c241",
+      "reason": "grant quota"
+    },
+    {
+      "node": 2,
+      "target": "728f59465af3e3c980850000c9adc7d66b91af44fa7d9e5b158e56e1b9da8d48",
+      "reason": "grant quota"
+    },
+    {
+      "node": 2,
+      "target": "5580b8b168b9eec13e87937f1ea97004a87ac424da4a9157cfb019e06463e875",
+      "reason": "grant quota"
+    },
+    {
+      "node": 2,
+      "target": "c48eb2048c5f216fb28ae1d8063aadc0d8e5d69719cbff04b1a4a57397b8499e",
+      "reason": "grant quota"
+    },
+    {
+      "node": 2,
+      "target": "0b3e45d2f6c790a653ea4b9d75ac4b3912e1b12a8fa52b732b73226c1b46f6ec",
+      "reason": "grant quota"
+    },
+    {
+      "node": 3,
+      "target": "b32715d1888e4e787e135e68905efe7aa2df997efbc5448585f83f846c5d4d27",
+      "reason": "grant quota"
+    },
+    {
+      "node": 3,
+      "target": "1df5ebed74dda813d7d5b3d8a973ff3babcb16a18216f64644faff1a8146cfa9",
+      "reason": "grant quota"
+    },
+    {
+      "node": 3,
+      "target": "40a94a41261676ab8da37f2e74e5973b0007c81e67a126f171bbe759a8d1c241",
+      "reason": "grant quota"
+    },
+    {
+      "node": 3,
+      "target": "728f59465af3e3c980850000c9adc7d66b91af44fa7d9e5b158e56e1b9da8d48",
+      "reason": "grant quota"
+    },
+    {
+      "node": 3,
+      "target": "5580b8b168b9eec13e87937f1ea97004a87ac424da4a9157cfb019e06463e875",
+      "reason": "grant quota"
+    },
+    {
+      "node": 3,
+      "target": "c48eb2048c5f216fb28ae1d8063aadc0d8e5d69719cbff04b1a4a57397b8499e",
+      "reason": "grant quota"
+    },
+    {
+      "node": 3,
+      "target": "0b3e45d2f6c790a653ea4b9d75ac4b3912e1b12a8fa52b732b73226c1b46f6ec",
+      "reason": "grant quota"
+    },
+    {
+      "node": 4,
+      "target": "b32715d1888e4e787e135e68905efe7aa2df997efbc5448585f83f846c5d4d27",
+      "reason": "grant quota"
+    },
+    {
+      "node": 4,
+      "target": "1df5ebed74dda813d7d5b3d8a973ff3babcb16a18216f64644faff1a8146cfa9",
+      "reason": "grant quota"
+    },
+    {
+      "node": 4,
+      "target": "40a94a41261676ab8da37f2e74e5973b0007c81e67a126f171bbe759a8d1c241",
+      "reason": "grant quota"
+    },
+    {
+      "node": 4,
+      "target": "728f59465af3e3c980850000c9adc7d66b91af44fa7d9e5b158e56e1b9da8d48",
+      "reason": "grant quota"
+    },
+    {
+      "node": 4,
+      "target": "5580b8b168b9eec13e87937f1ea97004a87ac424da4a9157cfb019e06463e875",
+      "reason": "grant quota"
+    },
+    {
+      "node": 4,
+      "target": "c48eb2048c5f216fb28ae1d8063aadc0d8e5d69719cbff04b1a4a57397b8499e",
+      "reason": "grant quota"
+    },
+    {
+      "node": 4,
+      "target": "0b3e45d2f6c790a653ea4b9d75ac4b3912e1b12a8fa52b732b73226c1b46f6ec",
+      "reason": "grant quota"
+    }
+  ],
+  "revoke_refusal_records": [],
+  "processes": [
+    {
+      "action": "gateway-commit",
+      "exit_code": 70,
+      "result": null
+    },
+    {
+      "action": "collector-commit",
+      "exit_code": 70,
+      "result": null
+    },
+    {
+      "action": "recover",
+      "exit_code": 0,
+      "result": {
+        "status": {
+          "closed": true,
+          "cover": [
+            "receipt",
+            "receipt",
+            "receipt",
+            "expiry",
+            "expiry"
+          ],
+          "lower_time": 40,
+          "receipt_mask": 7,
+          "uncovered_witness": null
+        },
+        "decisions": [
+          {
+            "gateway": 0,
+            "target": "5cc7dd107e1ab0797597473478fee65e2aef6e775fe6f73d027d013b651b4d06",
+            "allow": false,
+            "reason": "revoked",
+            "floor": 40
+          },
+          {
+            "gateway": 0,
+            "target": "029a1275ac20d8dac97916681393877981c6cbb82c6c58b30b96f2cbeb9ebce6",
+            "allow": false,
+            "reason": "revoked",
+            "floor": 40
+          },
+          {
+            "gateway": 0,
+            "target": "f3506a8562d32a5312781fbad2800983b07eb72ec3a621b35d11219a7d0e70d5",
+            "allow": true,
+            "reason": "allow",
+            "floor": 40
+          },
+          {
+            "gateway": 1,
+            "target": "5cc7dd107e1ab0797597473478fee65e2aef6e775fe6f73d027d013b651b4d06",
+            "allow": false,
+            "reason": "revoked",
+            "floor": 40
+          },
+          {
+            "gateway": 1,
+            "target": "029a1275ac20d8dac97916681393877981c6cbb82c6c58b30b96f2cbeb9ebce6",
+            "allow": false,
+            "reason": "revoked",
+            "floor": 40
+          },
+          {
+            "gateway": 1,
+            "target": "f3506a8562d32a5312781fbad2800983b07eb72ec3a621b35d11219a7d0e70d5",
+            "allow": true,
+            "reason": "allow",
+            "floor": 40
+          },
+          {
+            "gateway": 2,
+            "target": "5cc7dd107e1ab0797597473478fee65e2aef6e775fe6f73d027d013b651b4d06",
+            "allow": false,
+            "reason": "revoked",
+            "floor": 40
+          },
+          {
+            "gateway": 2,
+            "target": "029a1275ac20d8dac97916681393877981c6cbb82c6c58b30b96f2cbeb9ebce6",
+            "allow": false,
+            "reason": "revoked",
+            "floor": 40
+          },
+          {
+            "gateway": 2,
+            "target": "f3506a8562d32a5312781fbad2800983b07eb72ec3a621b35d11219a7d0e70d5",
+            "allow": true,
+            "reason": "allow",
+            "floor": 40
+          },
+          {
+            "gateway": 3,
+            "target": "5cc7dd107e1ab0797597473478fee65e2aef6e775fe6f73d027d013b651b4d06",
+            "allow": false,
+            "reason": "expired",
+            "floor": 40
+          },
+          {
+            "gateway": 3,
+            "target": "029a1275ac20d8dac97916681393877981c6cbb82c6c58b30b96f2cbeb9ebce6",
+            "allow": false,
+            "reason": "expired",
+            "floor": 40
+          },
+          {
+            "gateway": 3,
+            "target": "f3506a8562d32a5312781fbad2800983b07eb72ec3a621b35d11219a7d0e70d5",
+            "allow": true,
+            "reason": "allow",
+            "floor": 40
+          },
+          {
+            "gateway": 4,
+            "target": "5cc7dd107e1ab0797597473478fee65e2aef6e775fe6f73d027d013b651b4d06",
+            "allow": false,
+            "reason": "expired",
+            "floor": 40
+          },
+          {
+            "gateway": 4,
+            "target": "029a1275ac20d8dac97916681393877981c6cbb82c6c58b30b96f2cbeb9ebce6",
+            "allow": false,
+            "reason": "expired",
+            "floor": 40
+          },
+          {
+            "gateway": 4,
+            "target": "f3506a8562d32a5312781fbad2800983b07eb72ec3a621b35d11219a7d0e70d5",
+            "allow": true,
+            "reason": "allow",
+            "floor": 40
+          }
+        ],
+        "integrity_checks": 7
+      }
+    }
+  ]
+}
