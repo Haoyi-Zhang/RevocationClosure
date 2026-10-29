@@ -8,4 +8,11 @@ The separately retained process-separation study uses five simultaneous gateway 
 
 Reproduction retains the exact executable root and test Python source set and command logs. It compares scientific decisions, structured inputs, and ordered collector traces, not timing equality. Results report scoped process CPU/RSS where collected. No whole-session global memory peak or cumulative human-session CPU figure is asserted.
 
-Paper builds additionally require pdfLaTeX, BibTeX (or the equivalent installed `bibtex.original` entry), standard AMS/graphics packages, TikZ, and PGFPlots. IEEEtran class and bibliography-style files are supplied unmodified with their license notices. Font files are not redistributed.
+Paper builds additionally require pdfLaTeX, BibTeX (or the equivalent installed
+`bibtex.original` entry), and standard AMS/graphics packages. Figures are supplied
+as vector PDFs. Their Python generators use ReportLab and the TeX-distributed
+URW Times font; neither TikZ nor PGFPlots is used. IEEEtran class and bibliography
+style remain unmodified with their license notices. The current manuscript was
+compiled with TeX Live 2023 / pdfTeX 1.40.25 on Linux, using the supplied class
+and embedded vector figures. Historical scientific run environments remain in
+their original result records. Font files are not redistributed.

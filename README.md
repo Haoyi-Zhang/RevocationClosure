@@ -32,6 +32,20 @@ from its retained source snapshot and compares 69 semantic JSON results,
 requires unchanged executable source bytes and membership; use a fresh output
 after changing source. Timing and process telemetry are not equality targets.
 
+The 71-command run covers the gateway and collector campaigns, not every later
+study. The principal reproduction families are:
+
+| Result family | Entry point | Retained outputs |
+| --- | --- | --- |
+| Gateway and collector correspondence/recovery | `reproduce.py` | `results/` and `results/reproduction/` |
+| Same-information durable reference | `collector_comparison.py` | `results/collector-comparison/` |
+| Quota progress, finite states and 750-case SQL comparison | `capacity/run.py` stages `finite`, `directed`, `campaign`, `verify` | `capacity/results/` |
+| Admission-to-closure composition | `capacity/integrated_closure.py` | `capacity/results/integrated-closure/` |
+
+The capacity commands and fresh-output requirements are in `capacity/README.md`.
+The claim ledger maps the abstract's counts to these separate families. Running
+one family does not recertify another family's historical timing or storage data.
+
 ## Focused checks
 
 ```sh
