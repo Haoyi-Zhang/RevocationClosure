@@ -178,7 +178,7 @@ def export_table(summary, path):
 
 def verify(folder):
     summary = json.loads((folder/"summary.json").read_text(encoding="utf-8"))
-    if summary["case_count"] != 6 or {(x["cohort"],x["policy"]) for x in summary["cases"]} != {
+    if summary["case_count"] != 6 or len(summary["cases"]) != 6 or {(x["cohort"],x["policy"]) for x in summary["cases"]} != {
             (c,p) for c in ("common","saturated") for p in ("append","reservation","replacement")}:
         raise ValueError("case denominator")
     for x in summary["cases"]:
@@ -190,11 +190,32 @@ def verify(folder):
                r["revocation"] != plan["revoke"]["id"] for r in plan["receipts"]):
             raise ValueError("receipt binding")
         expected = not (x["cohort"] == "saturated" and x["policy"] == "append")
-        recovered = x["processes"][-1]["result"]
+        recovery = x["processes"][-1]
+        if recovery["action"] != "recover" or recovery["exit_code"] != 0:
+            raise ValueError("recovery process outcome")
+        recovered = recovery["result"]
         decisions = recovered["decisions"]
-        if (len(decisions) != 15 or {(d["gateway"],d["target"]) for d in decisions} !=
-                {(i,g["id"]) for i in range(5) for g in plan["children"]+[plan["control"]]}):
+        expected_product = {(i,g["id"]) for i in range(5)
+                            for g in plan["children"]+[plan["control"]]}
+        if (len(decisions) != 15 or len(expected_product) != 15 or
+                {(d["gateway"],d["target"]) for d in decisions} != expected_product):
             raise ValueError("recovery decision product")
+        if any(type(d["allow"]) is not bool or type(d["gateway"]) is not int for d in decisions):
+            raise ValueError("recovery decision types")
+        child_ids = {g["id"] for g in plan["children"]}
+        descendants = [d for d in decisions if d["target"] in child_ids]
+        controls = [d for d in decisions if d["target"] == plan["control"]["id"]]
+        counts = {"late_descendant_checks":len(descendants),
+                  "late_descendant_allows":sum(d["allow"] for d in descendants),
+                  "control_allows":sum(d["allow"] for d in controls)}
+        if any(x[k] != value for k,value in counts.items()):
+            raise ValueError("recovery decision/counter mismatch")
+        # At recovered clock 43, the open append control admits descendants
+        # only at the three long-deadline gateways. Closed cases admit none;
+        # the independently granted control remains live at all five.
+        if any(d["allow"] != (d["target"] == plan["control"]["id"] or
+                              (not expected and d["gateway"] < 3)) for d in decisions):
+            raise ValueError("recovery authorization outcome")
         if (x["closed_after_recovery"] != expected or recovered["status"]["closed"] != expected
                 or x["receipts"] != len(plan["receipts"]) or x["receipts"] != (3 if expected else 0)
                 or x["late_descendant_checks"] != 10 or x["late_descendant_allows"] != (0 if expected else 6)

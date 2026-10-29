@@ -36,6 +36,12 @@ expected absence of a completion guarantee, not post-completion resurrection.
 All 30 unrelated-control checks allow. Eleven actual child exits return 70;
 six recovery workers return 0 and check 42 database integrity results.
 
+Offline verification recomputes the descendant/control totals from the individual
+decisions, checks the distinct fifteen-coordinate product and the per-gateway
+expected outcomes, and compares them with saved counters before table export.
+It rejects a changed decision even when the same mutation is copied into both
+summary and case records; mutation regressions exercise this boundary and the CLI.
+
 Logical rows, allocated SQLite pages and DB/WAL/SHM extents have separate raw
 fields. Five stores are summed only within a case. Common append/reservation use
 28 rows after the revoke schedule, replacement 25; all allocate 25 database pages.

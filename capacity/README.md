@@ -20,7 +20,7 @@ python -B integrated_closure.py --out results/integrated-closure --verify --tabl
 Run from this directory with Python 3.12 and assertions enabled:
 
 ```sh
-python -B -m unittest test_environment test_retained_input -v
+python -B -m unittest test_environment test_retained_input test_integrated_evidence -v
 python -B run.py finite --out reproduced/finite
 python -B run.py directed --out reproduced/directed
 python -B run.py campaign --out reproduced/campaign
@@ -35,6 +35,13 @@ both and preserves the same decompressed records. Directed database names and pr
 inputs are relative to this directory.
 The read-only replay uses these records and the separate set/dictionary specification;
 it does not reopen retained SQLite databases. Public fixture keys are not credentials.
+
+The integrated verifier derives descendant and control counts from all fifteen
+individual recovery decisions in each case, checks the complete gateway/target
+product and the expected per-gateway outcomes, and compares the derived counts
+with the saved totals before exporting a table. Mutation tests cover inconsistent
+decisions, matching but false counters, changed control decisions, live/expired
+gateway swaps, non-boolean values, duplicate cases and CLI export refusal.
 
 The finite stage covers 24 configurations to depth five modulo exact state/depth
 merging. Disk tests exercise lineage, quota lifetime, transaction serialization,

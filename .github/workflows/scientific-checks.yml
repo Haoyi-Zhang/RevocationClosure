@@ -78,7 +78,8 @@ jobs:
           output_directory="$PWD/ci-results"
           echo "output_directory=$output_directory" >> "$GITHUB_OUTPUT"
           mkdir "$output_directory"
-          python -B -m unittest test_environment test_retained_input -v
+          python -B -m unittest test_environment test_retained_input test_integrated_evidence -v
+          python -B integrated_closure.py --out results/integrated-closure --verify
           python -B run.py finite --out "$output_directory/finite" > "$output_directory/finite.log" 2>&1
           python -B run.py directed --out "$output_directory/directed" > "$output_directory/directed.log" 2>&1
           python -B run.py campaign --out "$output_directory/campaign" > "$output_directory/campaign.log" 2>&1
