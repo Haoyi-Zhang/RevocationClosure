@@ -145,7 +145,7 @@ def barrier(out):
     arrow(c,(1.35,2.1),(2.65,2.1));comparison(c,2,3.05,'d(h)','d(g)')
     box(c,0,.7,2.72,1.00,['Gateways 0-2','durable receipts'])
     box(c,4,.7,2.9,1.00,[],True)
-    label(c,4,.88,['Gateways 3-4']);comparison(c,4,.52,'lower time','200',True)
+    label(c,4,.88,['Gateways 3-4']);comparison(c,4,.52,'collector K','200',True)
     box(c,2,-.7,3.0,1.04,['All five covered','future checks reject'],gray=.94)
     arrow(c,(0,1.6),(0,1.2));arrow(c,(0,.2),(.5,-.18));arrow(c,(4,.2),(3.5,-.18),True)
     finish(c)
