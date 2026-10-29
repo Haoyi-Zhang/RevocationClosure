@@ -113,6 +113,15 @@ count for a future run. Collector and ancestry measurements retain all paired
 outcomes, including slower cases; they measure local SQLite work rather than
 WAN closure or deployment gains.
 
+The paired collector timing range reported in the paper and claim ledger comes
+from `results/collector-comparison/timing-isolated/measurement.json`. The separate
+capture at `results/collector-comparison/timing/measurement.json` uses the same
+declared case plan but contains its own paired observations. It remains as
+additional measurement evidence, not an alternative manuscript source or a
+replacement for the cited capture. The two captures are not pooled. Both retain
+their own environment, observed timings and slower cases unchanged; neither is
+relabeled as a new execution by this documentation update.
+
 ## Paper
 
 The complete project also contains `paper/`; from that directory run

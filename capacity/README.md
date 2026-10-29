@@ -14,7 +14,7 @@ checks. See `../docs/integrated-closure.md` for its exact consumer and scope.
 
 ```sh
 python -B integrated_closure.py --out results/fresh-integrated
-python -B integrated_closure.py --out results/integrated-closure --verify --table ../../paper/integrated-closure.tex
+python -B integrated_closure.py --out results/integrated-closure --verify
 ```
 
 Run from this directory with Python 3.12 and assertions enabled:
@@ -27,7 +27,11 @@ python -B run.py campaign --out reproduced/campaign
 python -B run.py verify --out reproduced/verification --finite-input reproduced/finite --directed-input reproduced/directed --campaign-input reproduced/campaign
 ```
 
-Each output must be fresh. All writable paths are confined to this module.
+Each experimental output must be fresh. Experiment paths are confined to this
+module. The read-only verification command above requires no paper directory.
+An optional `--table PATH` writes a derived TeX fragment to an existing, caller-
+chosen directory; it does not require or create a manuscript. In the complete
+local project, `paper/build.sh` supplies the separate manuscript destination.
 `results/finite`, `results/directed`, and `results/campaign` retain complete inputs,
 operation/authorization records, summaries, and actual runtime environment records.
 Retained streams use lossless XZ containers; fresh runs emit gzip. The replay accepts

@@ -10,8 +10,13 @@ Run from `capacity/`:
 
 ```sh
 python -B integrated_closure.py --out results/fresh-integrated
-python -B integrated_closure.py --out results/integrated-closure --verify --table ../../paper/integrated-closure.tex
+python -B integrated_closure.py --out results/integrated-closure --verify
 ```
+
+Verification reads the retained cases without exporting into a sibling paper
+directory. Optional `--table PATH` exports the verified table to an existing
+directory chosen by the caller. The complete local project's paper build uses
+that option; it is not needed in the standalone artifact repository.
 
 The six cases cross a common five-grant cohort and a saturated twelve-grant
 offered pool with append, separate-row reservation and target-row replacement.
